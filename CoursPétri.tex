@@ -108,17 +108,77 @@
 	 		\includegraphics<1>[scale=0.40]{PuitSource.png}
 	 	\end{center}
 	\end{frame}
-	\subsection{ Marquages                }
-		\begin{frame}
-	\frametitle{}
+	\subsection{ Marquages }
+		\begin{frame} [shrink=15]
+	\frametitle{Marquage}
+	\begin{examplefirst} {Le Marquage}
+	Chaque place \textbf{\textit{(pi )}} d’un RdP peut contenir un ou plusieurs marqueurs (jetons). 
+	
+	La configuration complète du réseau, avec toutes les marques positionnées, forme le marquage et définit
+	l’état du réseau (et donc l’état du système modélisé).
+
+	
+	\end{examplefirst}
+		\centering
+		 	\begin{center}
+		 		\includegraphics<1>[scale=0.40]{marquage.png}
+		 	\end{center}
+		 	\begin{itemize}
+		 		\item P1 ,P2,P3 sont des places .
+		 		\item T1 est une transition qui permet de passer de P1 vers Deux places P2 et P3 .
+		 		\end{itemize}
 	\end{frame}
 	\subsection{ Franchissement             }
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Franchissement}
+	\textbf{Franchissement}
+	
+	C’est le formalisme qui permet de passer d’un marquage à un autre, ce qui rend compte de
+	l’évolution du système modélisé. Une transition est franchissable si chacune des places en
+	entrée compte au moins un jeton ; dans ce cas :
+	\setbeamercovered{invisible}
+	\begin{enumerate}
+	\item \uncover<.1->{le franchissement est une opération indivisible (atomique)}
+	\item \uncover<.2->{ un jeton est consommé dans chaque place en entrée}
+	\item \uncover<.3->{ un jeton est produit dans chaque place en sortie}
+	\end{enumerate}
+	
+
 	\end{frame}
-	\subsection{ Réseaux particuliers          }
+		\begin{frame}{Exemples de franchissement}
+	Voici des exemples de franchissement avec deux réseaux différents.
+
+		
+	
+				\centering
+					 	\begin{center}
+					 		\includegraphics<1>[scale=0.32]{franchissement1.png}
+					 	\end{center}
+					 	
+					 	\centering
+					 		\begin{center}
+					 				\includegraphics<1>[scale=0.32]{franchissement2.png}
+					 		\end{center}
+					 	
+					 	
+				
+		\end{frame}
+	\subsection{ Réseaux particuliers }
 		\begin{frame}
-	\frametitle{}
+		Il existe des réseaux particuliers on va dans la suite de ce cours on va citer quelqu'uns .
+	\frametitle{Graphe d'état}
+	\begin{examplesecond}{Graphe d'état}
+	 un graphe d'état a une particularité qui est relative à ses transitions tel que , chaque transition ne dispose que d’une place en entrée et uneplace en sortie.
+	
+	
+	\end{examplesecond}
+	
+	\centering
+						 	\begin{center}
+						 		\includegraphics<1>[scale=0.32]{grapheetat.png}
+						 	\end{center}
+	
+	
 	\end{frame}
 	\section{Propriétés des réseaux de Petri}
 		\begin{frame}
