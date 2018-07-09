@@ -1,0 +1,23 @@
+1 Notations et règles de franchissement
+1.1 Places, Transitions et Arcs . . . . . . .
+1.2 Marquages . . . . . . . . . . . . . . . .
+1.3 Franchissement . . . . . . . . . . . . .
+1.4 Réseaux particuliers . . . . . . . . . .
+
+2 Propriétés des réseaux de Petri
+2.1 Graphe de Marquage Accessible (GMA) . . . . . . . . . . . .
+2.2 Le vecteur d’occurrence et l’équation de changement d’état .
+2.3 Quelques propriétés qualitatives . . . . . . . . . . . . . . . . .
+2.3.1 Bornitude . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.2 Pseudo-vivacité . . . . . . . . . . . . . . . . . . . . . .
+2.3.3 Quasi-vivacité . . . . . . . . . . . . . . . . . . . . . . .
+2.3.4 Vivacté . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.5 Réseau sans blocage . . . . . . . . . . . . . . . . . . .
+2.3.6 Etat d’accueil . . . . . . . . . . . . . . . . . . . . . . .
+2.3.7 Conservation . . . . . . . . . . . . . . . . . . . . . . .
+2.4 Types de réseaux de Petri . . . . . . . . . . . . . . . . . . . .
+2.4.1 Réseaux de Petri généralisés . . . . . . . . . . . . . . .
+2.4.2 Réseaux de Petri à capacités . . . . . . . . . . . . . .
+2.4.3 Graphe de marquage . . . . . . . . . . . . . . . . . . .
+2.5 Arborescence de couverture . . . . . . . . . . . . . . . . . . .
+2.5.1 Algorithme de contstruction d’un graphe de marquage

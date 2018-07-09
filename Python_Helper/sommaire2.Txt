@@ -1,0 +1,22 @@
+\section{Notations et règles de franchissement}
+\subsection{ Places, Transitions et Arcs       }
+\subsection{ Marquages                }
+\subsection{ Franchissement             }
+\subsection{ Réseaux particuliers          }
+\section{Propriétés des réseaux de Petri}
+\subsection{ Graphe de Marquage Accessible (GMA)            }
+\subsection{ Le vecteur d’occurrence et l’équation de changement d’état }
+\subsection{ Quelques propriétés qualitatives                 }
+\subsubsection{ Bornitude                         }
+\subsubsection{ Pseudo-vivacité                      }
+\subsubsection{ Quasi-vivacité                       }
+\subsubsection{ Vivacté                          }
+\subsubsection{ Réseau sans blocage                   }
+\subsubsection{ Etat d’accueil                       }
+\subsubsection{ Conservation                       }
+\subsection{ Types de réseaux de Petri                    }
+\subsubsection{ Réseaux de Petri généralisés               }
+\subsubsection{ Réseaux de Petri à capacités              }
+\subsubsection{ Graphe de marquage                   }
+\subsection{ Arborescence de couverture                   }
+\subsubsection{ Algorithme de contstruction d’un graphe de marquage}
