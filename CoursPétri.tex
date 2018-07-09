@@ -1,11 +1,27 @@
 \documentclass[11pt]{beamer}
-\usetheme{Marburg}
+% => essayer différents thèmes (en décommantant une des trois lignes suivantes)
+%\usetheme{PaloAlto}
+%\usetheme{Madrid}
+\usetheme{Copenhagen}
+%\usetheme{Marburg}
+
+% => il est possible, pour un thème donné, de modifier seulement la couleur
+%\usecolortheme{crane}
+%\usecolortheme{seahorse}
+
+%\useoutertheme[left]{sidebar}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
-
+\newenvironment<>{examplefirst}[1]{%
+  \setbeamercolor{block title}{fg=white,bg=red!75!black}%
+  \begin{block}#2{#1}}{\end{block}}
+\newenvironment<>{examplesecond}[1]{%
+  \setbeamercolor{block title}{fg=white,bg=blue!75!black}%
+  \begin{block}#2{#1}}{\end{block}}
+  
 \author{Mourad Daoudi}
 \title{Les Réseaux de Pétri}
 %\subtitle{}
@@ -23,14 +39,40 @@
 		\tableofcontents{}
 	\end{frame}
 
+
+
+
+
+	\section{Introduction}
+		\begin{frame}
+		\frametitle{Définition génerale}
+	
+	
+		\begin{examplefirst} {Rappel d'histoire}
+		Les réseaux de Petri ont été inventés par le mathématicien allemand Carl Alain Petri dans
+			les années 1960.
+		\end{examplefirst}
+	
+	
+		
+		
+		\end{frame}
 	
 	\section{Notations et règles de franchissement}
-		\begin{frame}
-	\frametitle{}
-	\end{frame}
+
 	\subsection{ Places, Transitions et Arcs       }
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Définitions}
+	\begin{examplesecond} {Un réseau de pétri c'est quoi ?}
+		\setbeamercovered{invisible}
+	   \begin{itemize}
+	   \item  \uncover<.1-> { un graphe}
+	   \item \uncover<.2-> {formé de deux types de nœuds appelés places et transitions, reliés par des arcs orientés}
+	   \item \uncover<.3->  {biparti, c.-à-d. qu’un arc relie alternativement une place à une transition et une transition à une place}
+	   \end{itemize}
+	\end{examplesecond}
+	
+	
 	\end{frame}
 	\subsection{ Marquages                }
 		\begin{frame}
