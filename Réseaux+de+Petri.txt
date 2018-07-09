@@ -1,0 +1,950 @@
+Table des matières
+Les réseaux de Petri
+
+1
+
+1 Notations et règles de franchissement
+1.1 Places, Transitions et Arcs . . . . . . .
+1.2 Marquages . . . . . . . . . . . . . . . .
+1.3 Franchissement . . . . . . . . . . . . .
+1.4 Réseaux particuliers . . . . . . . . . .
+
+.
+.
+.
+.
+
+3
+3
+4
+4
+5
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+7
+8
+9
+11
+11
+11
+11
+12
+12
+12
+13
+13
+13
+13
+14
+14
+15
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+2 Propriétés des réseaux de Petri
+2.1 Graphe de Marquage Accessible (GMA) . . . . . . . . . . . .
+2.2 Le vecteur d’occurrence et l’équation de changement d’état .
+2.3 Quelques propriétés qualitatives . . . . . . . . . . . . . . . . .
+2.3.1 Bornitude . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.2 Pseudo-vivacité . . . . . . . . . . . . . . . . . . . . . .
+2.3.3 Quasi-vivacité . . . . . . . . . . . . . . . . . . . . . . .
+2.3.4 Vivacté . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.5 Réseau sans blocage . . . . . . . . . . . . . . . . . . .
+2.3.6 Etat d’accueil . . . . . . . . . . . . . . . . . . . . . . .
+2.3.7 Conservation . . . . . . . . . . . . . . . . . . . . . . .
+2.4 Types de réseaux de Petri . . . . . . . . . . . . . . . . . . . .
+2.4.1 Réseaux de Petri généralisés . . . . . . . . . . . . . . .
+2.4.2 Réseaux de Petri à capacités . . . . . . . . . . . . . .
+2.4.3 Graphe de marquage . . . . . . . . . . . . . . . . . . .
+2.5 Arborescence de couverture . . . . . . . . . . . . . . . . . . .
+2.5.1 Algorithme de contstruction d’un graphe de marquage
+
+1
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+Les réseaux de Petri
+Les réseaux de Petri ont été inventés par le mathématicien allemand Carl Alain Petri dans
+les années 1960.
+
+2
+
+Chapitre
+
+1
+
+Notations
+et
+franchissement
+1.1
+
+règles
+
+de
+
+Places, Transitions et Arcs
+
+Un réseau de Petri (RdP) est :
+- un graphe
+- formé de deux types de nœuds appelés places et transitions, reliés par des arcs orientés
+- biparti, c.-à-d. qu’un arc relie alternativement une place à une transition et une transition à une place
+Remarques :
+- Une place (pi ) modélise les ressources utilisées dans le système.
+- Une transition (ti ) modélise les actions sur les ressources.
+Exemple : la place p1 est en entrée de la transition t1 et p2 est en sortie de t1 .
+
+- Une transition sans place en entrée est une transition source.
+- Une transition sans place en sortie est une transition puits.
+
+3
+
+1. Notations et règles de franchissement
+
+1.2
+
+Marquages
+
+Chaque place (pi ) d’un RdP peut contenir un ou plusieurs marqueurs (jetons). La configuration complète du réseau, avec toutes les marques positionnées, forme le marquage et définit
+l’état du réseau (et donc l’état du système modélisé).
+
+1.3
+
+Franchissement
+
+C’est le formalisme qui permet de passer d’un marquage à un autre, ce qui rend compte de
+l’évolution du système modélisé. Une transition est franchissable si chacune des places en
+entrée compte au moins un jeton ; dans ce cas :
+- le franchissement est une opération indivisible (atomique)
+- un jeton est consommé dans chaque place en entrée
+- un jeton est produit dans chaque place en sortie
+Exemples :
+
+4
+
+1. Notations et règles de franchissement
+
+1.4
+
+Réseaux particuliers
+
+i. Les graphes d’état : chaque transition ne dispose que d’une place en entrée et une
+place en sortie.
+
+ii. Les réseaux sans conflit : chaque place n’a qu’une transition en sortie.
+
+iii. Les réseaux dits simples : réseaux avec conflit, où chaque transition n’intervient au
+plus que dans une situation de conflit.
+
+iv. Graphes purs : aucune place n’est à la fois en entrée ou en sortie de la même transition.
+
+5
+
+1. Notations et règles de franchissement
+Définition : un réseau de Petri est défini par le tuple (P, T, P ré, P ost, M0 )
+P : ensemble de places pi
+T : ensemble de transitions
+P ré : P ré(p, t) est une valeur (≥ 0) associée à l’arc allant de la place p à la transition t
+P ost : P ost(p, t) est une valeur (≥ 0) associée à l’arc allant de la transition t à la place p
+M0 : vecteur décrivant le marquage initial, M o = (M0 (p1 ), . . . , M0 (pn ))
+↑ nombre de jetons dans la place p1
+Exemple : Soit P = p1 , p2 , p3 où p1 représente la ressource «fichier», p2 la ressource «imprimante» et p3 la ressource «fichiers en cours d’impression». On peut définir le RP suivant
+dans son état initial (par exemple).
+
+On a : P ré(p1 , t) = 1 (p donne le poids sur l’arc)
+P ré(p2 , t) = 1 ; P ré(p3 , t) = 0
+P ost(p1 , t) = 0 ; P ost(p2 , t) = 0 ; P ost(p3 , t) = 1
+M o = (M0 (p1 ), M0 (p2 ), M0 (p3 )) = (5, 2, 0)
+Remarque : dans le cas général, P ré(p, t) représente le nombre de ressources de type p
+consommées par la transition t, et P ost(p, t) représente le nombre de ressources de type p
+produites suite au tir de la transition t.
+M (p) indique le marquage de la place p (nombre de jetons contenus dans p).
+
+6
+
+Chapitre
+
+2
+
+Propriétés des réseaux de Petri
+À partir du marquage initial, le réseau de Petri peut évoluer si les conditions sont vérifiées.
+Exemple (se référer à l’exemple précédent) : Soit M0 = (5, 2, 0)
+Après le franchissement (tir) de la transition t, on utilisera un fichier et une imprimante (car
+P ré(p1 , t) = 1 et P ré(p2 , t) = 1) et on aura un fichier en cours d’impression ; le marquage
+deviendra alors : M1 = (4, 1, 1)
+Après un deuxième tir de la transition t, on obtiendra M2 = (3, 0, 2). On ne peut plus effectuer
+un autre tir de t, car M2 (p2 ) = 0.
+Dans le cas général, pour un marquage M , une transition t est tirable si et seulement si
+pour tout p ∈ P , on a : M (p) ≥ P ré(p, t)
+La franchissabilité (ou la sensibilisation ou le tir) d’une transition k pour le marquage M se
+note : M [t>.
+Si le marquage résultant est M 0 , alors on note : M [t>M 0 .
+Dans l’exemple précédent :
+M0 [t>M1 ; M1 [t>M2 et t n’est pas tirable pour M2 car M2 (p2 ) < P ré(p2 , t)
+Soit M un marquage : M = (M (p1 ), M (p2 ). . . )
+Notons : C − la matrice des P rés telle que : C − (ij) = P rés(Pi , tj )
+et C + la matrice des P osts telle que C + (ij) = P osts(Pi , tj )
+et C = C + − C −
+Toujours dans l’exemple précédent : on a
+ 
+
+ 
+
+1
+0
+ 
+ 
+C − = 1 ; C + = 0
+0
+1
+
+(2.1)
+
+Ainsi, avec cette notation, pour un marquage M , une transition ti est tirable si et seulement
+si : M ≥ i C − , où i C − est le vecteur colonne i de la matrice C − .
+
+7
+
+2. Propriétés des réseaux de Petri
+Exemple (précédent) :
+M1 est tirable car [4, 1, 1] ≥ [1, 1, 0] c.-à-d. M1 ≥ t1 C −
+M2 n’est pas tirable car M2 [3, 0, 2] n’est pas supérieur à C − [1, 1, 0]
+- Le tir d’une transition t ou un marquage M conduit à un nouveau marquage M 0 défini
+par :
+∀p ∈ P, M 0 (p) = M (p) − P ré(p, t) + P ost(p, t)
+où M 0 = M − t C − + t C + = M + k C
+Exemple (précédent) : M1 = M0 − t C − + t C + = [5, 2, 0] − [1, 1, 0] + [0, 0, 1]
+M1 = [4, 1, 1]
+
+2.1
+
+Graphe de Marquage Accessible (GMA)
+
+Un marquage sera dit accessible si on peut l’atteindre à partir du marquage initial, soit directement (avec un seul tir), soit indirectement (avec plusieurs tirs).
+On note A l’ensemble des marquages accessibles d’un réseau de
+Petri.
+Exemple (précédent) : A = M0 , M1 , M2
+Le graphe des marquages accessibles :
+Application :
+Considérons le réseau de Petri suivant :
+
+Soit T = (k1 , k2 ), on a :
+
+
+1
+0
+
+C − = P ré = 
+0
+1
+
+
+
+
+
+
+
+0
+1
+0
+1
+
+
+ ; C + = P ost = 
+1
+1
+0
+0
+
+
+
+0
+0
+ 0
+1
+
+
+ ; C = C+ − C− = 
+ 1
+0
+1
+−1
+
+avec M0 = (1, 1, 0, 4)
+On peut avoir les autres marquages accessibles, exemple :
+M0 [t1 >M1 car [1, 1, 0, 4] > [1, 0, 0, 1]
+8
+
+
+
+0
+0
+
+
+−1
+1
+
+(2.2)
+
+2. Propriétés des réseaux de Petri
+Donc : M1 = M0 +1 C = [1, 1, 0, 4] + [0, 0, 1, 3] etc.
+Le graphe des marquages accessibles :
+
+2.2
+
+Le vecteur d’occurrence et l’équation de changement d’état
+
+Soit T ∗ l’ensemble de transitions T ∗ = t1 , t2 , . . . , tn
+Soit S une séquence de transitions (S ∈ T ∗ ) ; le vecteur d’occurrences ~σ est tel que :
+~σ = (~σ (t))t
+où ~σ (t) est le nombre d’occurrences de t dans S.
+Exemple : Soit le graphe de marquage ci-dessous, avec T = t1 , t2 , t3
+Considérons la séquence ~σ = t1 t2 t3
+Alors le vecteur d’occurrences ~σ = (~σ (t1 ), ~σ (t2 ), ~σ (t3 )) est ~σ = (2, 1, 0)
+
+Ainsi, à partir d’un marquage M , on peut tirer une séquence de transitions σ, et on trouve
+le marquage M 0 .
+L’équation de changement d’état est alors donnée comme suit :
+M 0 = M + C · ~σ
+9
+
+2. Propriétés des réseaux de Petri
+Exemple : le franchissement d’une transition «source» consiste à rajouter un jeton à chacune
+des places en sortie.
+
+Exemple : le franchissement d’une transition «puits» consiste à retirer un jeton de chacune
+de ses places en entrée.
+
+Exemple : séquence de franchissement :
+M0 [t1 >M1 avec M1 = (0, 1, 0, 0)
+M0 [t1 t2 >M2 avec M2 = (0, 0, 0, 1)
+M0 [t1 t3 >M3 avec M3 = (0, 0, 0, 1)
+Ensemble des marquages accessibles : M ∗ = M0 , M1 , M1 , M3
+
+Séquence de franchissement
+
+Graphe de marquage
+
+10
+
+2. Propriétés des réseaux de Petri
+
+2.3
+
+Quelques propriétés qualitatives
+
+Vérifiables en se basant sur le graphe des marquages accessibles.
+
+2.3.1
+
+Bornitude
+
+Une place sera dite k-bornée si ∀M, M (p) ≤ k
+Exemple (précédent) :
+– M0 (p1 ) = M1 (p1 ) = M2 (p2 ) = M3 (p3 ) = M4 (p4 ) = 1 donc p1 est 1-bornée
+– la place p4 est 4-bornée
+Un réseau de Petri est borné s’il existe une valeur k telle que :
+∀M, ∀p, M (p) ≤ k
+Remarque : pour que le réseau soit borné, il faut que son ensemble de marquages accessibles
+A soit fini (sinon, le réseau n’est pas borné).
+Exemple :
+
+2.3.2
+
+Pseudo-vivacité
+
+Le réseau de Petri est pseudo-vivant si ∀M, ∃t/M [t>
+c.-à-d. pour tout marquage, il existe au moins une transition tirable à partir de ce marquage.
+Ainsi, le GMA d’un RdP pseudo-vivant possède au moins un arc (transition) sortant de chaque
+état (marquage).
+Un réseau pseudo vivant n’a pas de marquage puits (ou mort) c.-à-d. un marquage sans
+transition tirable. Donc s’il y a un marquage à partir duquel on ne peut pas tirer une transition
+alors le réseau n’est pas pseudo-vivant.
+
+2.3.3
+
+Quasi-vivacité
+
+Un réseau est quasi-vivant si : ∀k, ∃M/M [t>
+c.-à-d. que pour toute transition, il existe au moins un marquage à partir duquel on peut
+direr cette transition. Ainsi, la quasi-vivacité désigne la possibilité de franchir au moins une
+fois chaque transition.
+
+11
+
+2. Propriétés des réseaux de Petri
+
+2.3.4
+
+Vivacté
+
+Un RdP est vivant s’il est pseudo-vivant et quasi-vivant.
+Exemple :
+
+est un réseau vivant.
+
+2.3.5
+
+Réseau sans blocage
+
+Un RdP est dit sans blocage s’il n’a pas de marquage puits (mort).
+Exemple :
+
+M1 (après franchissement de t2 )
+est un blocage
+
+2.3.6
+
+Etat d’accueil
+
+Un RdP admet un état d’accueil Ma si : ∀M ∈ A, ∃σ ∈ T ∗ /M [σ>Ma
+c.-à-d. un marquage d’accueil Ma est tel qu’on peut lui accéder à partir de n’importe quel
+autre marquage M via une séquence de transition σ.
+– Un état d’accueil est accessible quelque soit l’évolution du réseau,
+– Si le marquage initial (M0 ) est un marquage d’accueil, alors le réseau est dit réinitialisable.
+Exemple : Réseau réinitialisable
+
+12
+
+2. Propriétés des réseaux de Petri
+
+2.3.7
+
+Conservation
+
+Un réseau de Petri est conservatif si :
+∀M ∈ A,
+
+X
+
+M0 (pi ) =
+
+X
+
+i
+
+i
+
+Exemple : Considérons le RdP tel que :
+M0 = [5, 8, 3] ; 5+8+3=16
+M1 = [4, 6, 6] ; 4+6+6=16
+M2 = [3, 7, 6] ; 3+7+6=16
+Ce réseau est dit conservatif.
+
+2.4
+2.4.1
+
+Types de réseaux de Petri
+Réseaux de Petri généralisés
+
+Dans ces réseaux, des poids sont associés aux arcs.
+Exemple :
+
+2.4.2
+
+Réseaux de Petri à capacités
+
+Dans ces réseaux, des poids sont associés aux places.
+Exemple :
+
+13
+
+M (pi )
+
+2. Propriétés des réseaux de Petri
+
+2.4.3
+
+Réseaux de Petri à priorité
+
+Dans ces réseaux, on franchit la transition avec la plus grande priorité.
+Exemple :
+
+2.4.4
+
+Graphe de marquage
+
+À utiliser quand le nombre de marquages accessibles est fini.
+Exemple :
+
+Les propriétés déterminées à partir de ce graphe de marquages sont :
+– 2 blocages : M2 et M3
+– 2-borné
+– non-vivant (non peusdo-vivant : ∀M, ∃t/M [t>)
+– quasi-vivant (∀t, ∃M/M [t>)
+– non réinitialisable (on ne peut pas trouver à partir d’un marquage une séquence de
+transition pour retrouver un marquage M0 )
+
+2.5
+
+Arborescence de couverture
+
+Un graphe de marquage ne peut plus être construit quand le réseau est non borné c.-à-d.
+quand le nombre de marquages accessibles est infini. D’où le recours au graphe de couverture.
+C’est un graphe à nombre de marquages fini.
+
+14
+
+2. Propriétés des réseaux de Petri
+
+2.5.1
+
+Algorithme de contstruction d’un graphe de marquage
+
+Pas 1 : À partir du marquage initial M0 , indiquer toutes les transitions validées et les marquages accessibles successeurs correspondants.
+Si un des marquages est strictement supérieur à M0 , on met la variable "w" pour chacun des
+composantes supérieures aux composantes de M0 .
+Pas 2 : Pour chaque nouveau marquage Mi , on fait soit le pas 2.1, soit le pas 2.2
+Pas 2.1 : S’il existe sur le chemin de M0 jusqu’à Mi (exclu) un marquage Mj = Mi ,
+alors Mi n’a pas de successeur.
+Pas 2.2 : Sinon, on prolonge le graphe avec les successeurs Mk (Mi ) : une composante "w" de Mi reste une composante de "w" de Mk .
+S’il existe un marquage Mj sur le chemin de M0 à Mk tel que Mk > Mj , alors on
+met "w" pour chacune des composantes supérieure aux composantes de Mi .
+Opérations sur "w" (nombre très grand)
+(
+
+∀n ∈ N; n < ∞
+
+n+w+w+n=w+w =w
+w−n=w
+
+Équation fondamentale
+Exemple :
+
+15
+
+2. Propriétés des réseaux de Petri
+Soit la séquence σ = t1 t2 , donc ~σ = (1, 1, 0, 0, 0)
+
+
+1
+0
+
+
+C − = 0
+
+0
+0
+
+0
+1
+0
+0
+0
+
+0
+0
+1
+0
+0
+
+
+
+
+
+0
+0
+
+
+0
+1
+
+
+1 ; C + = 1
+
+
+0
+1
+0
+1
+
+0
+0
+0
+1
+0
+
+0
+0
+0
+0
+1
+
+
+
+
+
+−1
+1
+
+
+0
+ 1
+
+
+0 ; C = C + −C − =  1
+
+
+ 0
+0
+0
+0
+
+0
+−1
+0
+1
+0
+
+0
+0
+−1
+0
+1
+(2.3)
+
+L’équation fondamentale correspondant à cette séquence est :
+M2 = M0 + C · ~σ
+ 
+
+
+
+−1
+1
+0  1
+  
+  
+M2 = 0 +  1
+  
+0  0
+0
+0
+
+0
+−1
+0
+1
+0
+
+0
+0
+−1
+0
+1
+
+  
+
+ 
+
+
+
+
+
+ 
+
+0
+−1
+1
+1
+1
+       
+0
+ 1 0  0  0
+        
+0  · 0 = 0 +  1  = 1
+        
+−1 0 0  1  1
+0
+0
+0
+0
+−1
+
+Graphe de marquages :
+
+Propriétés :
+– sauf
+– sans blocage
+– réinitialisable : M0 est un état d’acceuil
+– 2 séquences répétitives : T1 T2 T3 T4 et T1 T3 T2 T4
+
+16
+
+(2.4)
+
+
+
+1
+0
+
+
+0
+
+−1
+−1
+
+2. Propriétés des réseaux de Petri
+Exemple : Graphe de couverture et graphe de marquages
+
+t1 est une transition source, franchissable un nombre infini de fois, d’où le recours au graphe
+de couverture. À partir de M0 = (0), seule t1 est franchissable :
+M0 [t1>M1 = (1); M1 est supérieure à M0 , donc M1 = (w)
+À partir de M1 , t1 et t2 sont franchissables :
+– on tire t1 : M2 = (w + 1) = M 1 =⇒ M 2 n’a plus de successeur
+– on tire t2 : M3 = (w − 1) = (w) = M1 =⇒ M3 n’a plus de successeur
+
+17
+
+
