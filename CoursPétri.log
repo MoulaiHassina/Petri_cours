@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  9 JUL 2018 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  9 JUL 2018 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1211,10 +1211,10 @@ ead of 15 percent on input line 40.
 File: petriPlaces.png Graphic file (type png)
 
 <use petriPlaces.png>
-Package pdftex.def Info: petriPlaces.png used on input line 99.
+Package pdftex.def Info: petriPlaces.png used on input line 100.
 (pdftex.def)             Requested size: 329.22417pt x 106.3956pt.
 
-Overfull \hbox (21.9343pt too wide) in paragraph at lines 99--99
+Overfull \hbox (21.9343pt too wide) in paragraph at lines 100--100
  [] 
  []
 
@@ -1224,7 +1224,7 @@ Overfull \hbox (21.9343pt too wide) in paragraph at lines 99--99
 File: PuitSource.png Graphic file (type png)
 
 <use PuitSource.png>
-Package pdftex.def Info: PuitSource.png used on input line 110.
+Package pdftex.def Info: PuitSource.png used on input line 112.
 (pdftex.def)             Requested size: 177.45984pt x 99.57022pt.
  [10
 
@@ -1232,12 +1232,12 @@ Package pdftex.def Info: PuitSource.png used on input line 110.
 <marquage.png, id=457, 352.31625pt x 222.8325pt>
 File: marquage.png Graphic file (type png)
  <use marquage.png>
-Package pdftex.def Info: marquage.png used on input line 130.
+Package pdftex.def Info: marquage.png used on input line 132.
 (pdftex.def)             Requested size: 140.924pt x 89.13141pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 22.83478 percent inst
-ead of 15 percent on input line 130.
+ead of 15 percent on input line 132.
 
 [11
 
@@ -1252,17 +1252,17 @@ ead of 15 percent on input line 130.
 File: franchissement1.png Graphic file (type png)
 
 <use franchissement1.png>
-Package pdftex.def Info: franchissement1.png used on input line 165.
+Package pdftex.def Info: franchissement1.png used on input line 167.
 (pdftex.def)             Requested size: 168.95465pt x 81.58646pt.
 
 <franchissement2.png, id=594, 720.6925pt x 251.94125pt>
 File: franchissement2.png Graphic file (type png)
 
 <use franchissement2.png>
-Package pdftex.def Info: franchissement2.png used on input line 165.
+Package pdftex.def Info: franchissement2.png used on input line 167.
 (pdftex.def)             Requested size: 230.62631pt x 80.62283pt.
 
-Overfull \vbox (6.56442pt too high) detected at line 165
+Overfull \vbox (6.56442pt too high) detected at line 167
  []
 
 [15
@@ -1271,7 +1271,7 @@ Overfull \vbox (6.56442pt too high) detected at line 165
 <grapheetat.png, id=630, 561.09625pt x 221.82875pt>
 File: grapheetat.png Graphic file (type png)
  <use grapheetat.png>
-Package pdftex.def Info: grapheetat.png used on input line 182.
+Package pdftex.def Info: grapheetat.png used on input line 184.
 (pdftex.def)             Requested size: 179.55446pt x 70.98663pt.
 
 [16
@@ -1280,7 +1280,7 @@ Package pdftex.def Info: grapheetat.png used on input line 182.
 File: sansconflit.png Graphic file (type png)
 
 <use sansconflit.png>
-Package pdftex.def Info: sansconflit.png used on input line 193.
+Package pdftex.def Info: sansconflit.png used on input line 195.
 (pdftex.def)             Requested size: 247.32904pt x 82.22887pt.
  [17
 
@@ -1288,23 +1288,56 @@ Package pdftex.def Info: sansconflit.png used on input line 193.
 <simpleR.png, id=700, 418.56375pt x 250.9375pt>
 File: simpleR.png Graphic file (type png)
  <use simpleR.png>
-Package pdftex.def Info: simpleR.png used on input line 205.
+Package pdftex.def Info: simpleR.png used on input line 207.
 (pdftex.def)             Requested size: 133.94313pt x 80.30164pt.
  [18
 
- <./simpleR.png>] <graphepur.png, id=735, 728.7225pt x 255.95625pt>
+ <./simpleR.png>] <graphepur.png, id=736, 728.7225pt x 255.95625pt>
 File: graphepur.png Graphic file (type png)
  <use graphepur.png>
-Package pdftex.def Info: graphepur.png used on input line 217.
+Package pdftex.def Info: graphepur.png used on input line 219.
 (pdftex.def)             Requested size: 233.19595pt x 81.90767pt.
 
 [19
 
  <./graphepur.png>]
-Overfull \hbox (8.2373pt too wide) has occurred while \output is active
- [] \T1/cmss/m/n/6 Le vecteur d'occurrence et l'équation de changement d'état[]
-   
- []
+LaTeX Font Info:    Try loading font information for U+msa on input line 234.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 234.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+! Package inputenc Error: Unicode char â‰¥ (U+2265)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 		\end{frame}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char â‰¥ (U+2265)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 		\end{frame}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [20
 
@@ -1318,15 +1351,15 @@ Overfull \hbox (8.2373pt too wide) has occurred while \output is active
 
 ]
 Overfull \hbox (8.2373pt too wide) has occurred while \output is active
-  \T1/cmss/m/n/6 Le vecteur d'occurrence et l'équation de changement d'état   
+ [] \T1/cmss/m/n/6 Le vecteur d'occurrence et l'équation de changement d'état[]
+   
  []
 
 [22
 
 ]
 Overfull \hbox (8.2373pt too wide) has occurred while \output is active
- [] \T1/cmss/m/n/6 Le vecteur d'occurrence et l'équation de changement d'état[]
-   
+  \T1/cmss/m/n/6 Le vecteur d'occurrence et l'équation de changement d'état   
  []
 
 [23
@@ -1436,6 +1469,14 @@ Overfull \hbox (8.2373pt too wide) has occurred while \output is active
 [36
 
 ]
+Overfull \hbox (8.2373pt too wide) has occurred while \output is active
+ [] \T1/cmss/m/n/6 Le vecteur d'occurrence et l'équation de changement d'état[]
+   
+ []
+
+[37
+
+]
 \tf@nav=\write6
 \openout6 = `CoursPÃ©tri.nav'.
 
@@ -1445,39 +1486,41 @@ Overfull \hbox (8.2373pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `CoursPÃ©tri.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./CoursPÃ©tri.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `CoursPÃ©tri.out' has not changed.
-(rerunfilecheck)             Checksum: EDE17BCA4C679E1E883F1DBC316A53F3;942.
+(rerunfilecheck)             Checksum: 098C23A56F51331B16996ED7B1B33EC0;942.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
  ) 
 Here is how much of TeX's memory you used:
- 16792 strings out of 494929
- 305363 string characters out of 6180141
+ 16856 strings out of 494929
+ 306425 string characters out of 6180141
  390729 words of memory out of 5000000
- 19584 multiletter control sequences out of 15000+600000
- 10466 words of font info for 24 fonts, out of 8000000 for 9000
+ 19626 multiletter control sequences out of 15000+600000
+ 17282 words of font info for 44 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 49i,19n,72p,421b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecso1095.600pk> <
-/home/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </hom
-e/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0900.600pk> </home/ma
-sterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/master
-ubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/masterubun
-to/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/masterubunto/.
-texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk>
-Output written on CoursPÃ©tri.pdf (36 pages, 539028 bytes).
+ 49i,19n,72p,421b,728s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600pk> <
+/home/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.600pk> </hom
+e/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecso1095.600pk> </home/ma
+sterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/master
+ubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0900.600pk> </home/masterubun
+to/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/masterubunto/.
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/masterubunto/.texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/masterubunto/.texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk>
+Output written on CoursPÃ©tri.pdf (37 pages, 549706 bytes).
 PDF statistics:
- 1596 PDF objects out of 1728 (max. 8388607)
- 1310 compressed objects within 14 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 1668 PDF objects out of 1728 (max. 8388607)
+ 1354 compressed objects within 14 object streams
+ 98 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

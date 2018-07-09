@@ -73,13 +73,14 @@
 	   
 	   
 	\end{examplesecond}
+	
+	\setbeamercovered{transparent}
 	\begin{examplefirst} {Remarques}
-			\setbeamercovered{invisible}
+		\setbeamercovered{transparent}
 			
 			   \begin{itemize}
-				   \item  \uncover<.4-> {Une place \textbf{(pi )} modélise les ressources utilisées dans le système.
-				   }
-				   \item \uncover<.5 -> { Une transition \textbf{(ti )} modélise les actions sur les ressources.}
+				   \item  \uncover<.4->{Une place \textbf{(pi )} modélise les ressources utilisées dans le système.}
+				   \item \uncover<.5 ->{ Une transition \textbf{(ti )} modélise les actions sur les ressources.}
 		
 				   \end{itemize}
 	\end{examplefirst}
@@ -98,6 +99,7 @@
 	
 	\end{frame}
 	\begin{frame}
+
 	 	\begin{block}{Remarques}
 	 	-Une transition sans place en entrée est une transition source.
 	 	
@@ -214,6 +216,21 @@
 				\begin{center}
 				\includegraphics<1>[scale=0.32]{graphepur.png}
 				\end{center}
+		\end{frame}
+	\begin{frame}
+		\frametitle{Définitions }
+		\begin{examplesecond}{blue hydrangea}
+			 Définition  un réseau de Petri est défini par le tuple \textbf{\textit{(P, T, Pré, Post, $M_{0}$ )}}
+						
+						\begin{itemize}
+					\item 	\textbf{ P }: ensemble de places $p_{i}$
+						\item  \textbf{ T }: ensemble de transitions
+						\item \textbf{ Pré} : \textit{Pré(p, t)} est une valeur ($≥$ 0) associée à l’arc allant de la place p à la transition t
+						\item   \textbf{Post} : \textit{Post(p, t)} est une valeur ($≥$ 0) associée à l’arc allant de la transition \textit{t} à la place \textit{p}
+						\item  $M_{0}$ : vecteur décrivant le marquage initial, $M_{0}$  = ($M_{0}$  ($p_{1}$ ), . . . , $M_{0}$  ($p_{n}$)).
+							 nombre de jetons dans la place $p_{1}$
+							\end{itemize}
+			\end{examplesecond}				
 		\end{frame}
 
 	
