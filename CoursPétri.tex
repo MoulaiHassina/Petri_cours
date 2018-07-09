@@ -1,15 +1,16 @@
 \documentclass[11pt]{beamer}
 % => essayer différents thèmes (en décommantant une des trois lignes suivantes)
 %\usetheme{PaloAlto}
-%\usetheme{Madrid}
-\usetheme{Copenhagen}
+\usetheme{Madrid}
+%\usetheme{Copenhagen}
 %\usetheme{Marburg}
 
 % => il est possible, pour un thème donné, de modifier seulement la couleur
 %\usecolortheme{crane}
-%\usecolortheme{seahorse}
+\usecolortheme{seahorse}
+\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{page.jpg}}
 
-%\useoutertheme[left]{sidebar}
+\useoutertheme[left]{sidebar}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -38,6 +39,21 @@
 		\frametitle{Sommaire}
 		\tableofcontents{}
 	\end{frame}
+	\AtBeginSection[]{
+		
+		\begin{frame}
+				\frametitle{Sommaire}
+				\tableofcontents[currentsection]
+			\end{frame}
+		
+		}
+		\AtBeginSubsection[]{
+			
+			\begin{frame}
+				\frametitle{Sommaire}
+				\tableofcontents[currentsubsection]
+			\end{frame}
+			}
 
 
 
