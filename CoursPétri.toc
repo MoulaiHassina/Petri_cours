@@ -3,23 +3,23 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Notations et r\IeC {\`e}gles de franchissement}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{ Places, Transitions et Arcs }{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{ Marquages }{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{ Franchissement }{8}{0}{2}
-\beamer@subsectionintoc {2}{4}{ R\IeC {\'e}seaux particuliers }{9}{0}{2}
-\beamer@sectionintoc {3}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{10}{0}{3}
-\beamer@subsectionintoc {3}{1}{ Graphe de Marquage Accessible (GMA) }{11}{0}{3}
-\beamer@subsectionintoc {3}{2}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{12}{0}{3}
-\beamer@subsectionintoc {3}{3}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{13}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{1}{ Bornitude }{14}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{2}{ Pseudo-vivacit\IeC {\'e} }{15}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{3}{ Quasi-vivacit\IeC {\'e} }{16}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{4}{ Vivact\IeC {\'e} }{17}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{5}{ R\IeC {\'e}seau sans blocage }{18}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{6}{ Etat d\IeC {\textquoteright }accueil }{19}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{7}{ Conservation }{20}{0}{3}
-\beamer@subsectionintoc {3}{4}{ Types de r\IeC {\'e}seaux de Petri }{21}{0}{3}
-\beamer@subsubsectionintoc {3}{4}{1}{ R\IeC {\'e}seaux de Petri g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}s }{22}{0}{3}
-\beamer@subsubsectionintoc {3}{4}{2}{ R\IeC {\'e}seaux de Petri \IeC {\`a} capacit\IeC {\'e}s }{23}{0}{3}
-\beamer@subsubsectionintoc {3}{4}{3}{ Graphe de marquage }{24}{0}{3}
-\beamer@subsectionintoc {3}{5}{ Arborescence de couverture }{25}{0}{3}
-\beamer@subsubsectionintoc {3}{5}{1}{ Algorithme de contstruction d\IeC {\textquoteright }un graphe de marquage}{26}{0}{3}
+\beamer@subsectionintoc {2}{2}{ Marquages }{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{ Franchissement }{11}{0}{2}
+\beamer@subsectionintoc {2}{4}{ R\IeC {\'e}seaux particuliers }{12}{0}{2}
+\beamer@sectionintoc {3}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{ Graphe de Marquage Accessible (GMA) }{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{15}{0}{3}
+\beamer@subsectionintoc {3}{3}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{16}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{1}{ Bornitude }{17}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{2}{ Pseudo-vivacit\IeC {\'e} }{18}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{3}{ Quasi-vivacit\IeC {\'e} }{19}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{4}{ Vivact\IeC {\'e} }{20}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{5}{ R\IeC {\'e}seau sans blocage }{21}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{6}{ Etat d\IeC {\textquoteright }accueil }{22}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{7}{ Conservation }{23}{0}{3}
+\beamer@subsectionintoc {3}{4}{ Types de r\IeC {\'e}seaux de Petri }{24}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{1}{ R\IeC {\'e}seaux de Petri g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}s }{25}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{2}{ R\IeC {\'e}seaux de Petri \IeC {\`a} capacit\IeC {\'e}s }{26}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{3}{ Graphe de marquage }{27}{0}{3}
+\beamer@subsectionintoc {3}{5}{ Arborescence de couverture }{28}{0}{3}
+\beamer@subsubsectionintoc {3}{5}{1}{ Algorithme de contstruction d\IeC {\textquoteright }un graphe de marquage}{29}{0}{3}
