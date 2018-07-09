@@ -1,8 +1,11 @@
-\BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
-\BOOKMARK [2][]{Outline0.2}{Les \311volutions}{}% 2
-\BOOKMARK [3][]{Outline0.2.1.4}{La Virtualisation}{Outline0.2}% 3
-\BOOKMARK [3][]{Outline0.2.2.5}{La Containerisation}{Outline0.2}% 4
-\BOOKMARK [2][]{Outline0.3}{Bilan}{}% 5
-\BOOKMARK [3][]{Outline0.3.1.7}{Informatique}{Outline0.3}% 6
-\BOOKMARK [3][]{Outline0.3.2.8}{Durable}{Outline0.3}% 7
-\BOOKMARK [2][]{Outline0.4}{Bibliographie}{}% 8
+\BOOKMARK [2][]{Outline0.1}{Notations et r\350gles de franchissement}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.4}{ Places, Transitions et Arcs }{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.5}{ Marquages }{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.3.6}{ Franchissement }{Outline0.1}% 4
+\BOOKMARK [3][]{Outline0.1.4.7}{ R\351seaux particuliers }{Outline0.1}% 5
+\BOOKMARK [2][]{Outline0.2}{Propri\351t\351s des r\351seaux de Petri}{}% 6
+\BOOKMARK [3][]{Outline0.2.1.9}{ Graphe de Marquage Accessible \(GMA\) }{Outline0.2}% 7
+\BOOKMARK [3][]{Outline0.2.2.10}{ Le vecteur d\220occurrence et l\220\351quation de changement d\220\351tat }{Outline0.2}% 8
+\BOOKMARK [3][]{Outline0.2.3.11}{ Quelques propri\351t\351s qualitatives }{Outline0.2}% 9
+\BOOKMARK [3][]{Outline0.2.4.19}{ Types de r\351seaux de Petri }{Outline0.2}% 10
+\BOOKMARK [3][]{Outline0.2.5.23}{ Arborescence de couverture }{Outline0.2}% 11
