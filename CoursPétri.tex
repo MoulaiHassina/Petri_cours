@@ -226,7 +226,7 @@
     	\begin{frame}
 		\frametitle{Les Graphes purs}
 		\begin{examplesecond}{Graphe pur}
-		Les  Graphes purs sont ceux dont aucune place n’est à la fois en entrée ou en sortie de la même transition.
+		Les  Graphes purs sont ceux dont aucune place n'est à la fois en entrée ou en sortie de la même transition.
 		\end{examplesecond}
 				\centering
 				\begin{center}
@@ -235,14 +235,14 @@
 		\end{frame}
 	\begin{frame}
 		\frametitle{Définitions }
-		\begin{examplesecond}{blue hydrangea}
-			 Définition  un réseau de Petri est défini par le tuple \textbf{\textit{(P, T, Pré, Post, $M_{0}$ )}}
+		\begin{examplesecond}{Définition}
+			 Un réseau de Petri est défini par le tuple \textbf{\textit{(P, T, Pré, Post, $M_{0}$ )}}
 						
 						\begin{itemize}
 					\item 	\textbf{ P }: ensemble de places $p_{i}$
 						\item  \textbf{ T }: ensemble de transitions
-						\item \textbf{ Pré} : \textit{Pré(p, t)} est une valeur ($≥$ 0) associée à l’arc allant de la place p à la transition t
-						\item   \textbf{Post} : \textit{Post(p, t)} est une valeur ($≥$ 0) associée à l’arc allant de la transition \textit{t} à la place \textit{p}
+						\item \textbf{ Pré} : \textit{Pré(p, t)} est une valeur ($≥$ 0) associée à l'arc allant de la place p à la transition t
+						\item   \textbf{Post} : \textit{Post(p, t)} est une valeur ($≥$ 0) associée à l'arc allant de la transition \textit{t} à la place \textit{p}
 						\item  $M_{0}$ : vecteur décrivant le marquage initial, $M_{0}$  = ($M_{0}$  ($p_{1}$ ), . . . , $M_{0}$  ($p_{n}$)).
 							 nombre de jetons dans la place $p_{1}$
 							\end{itemize}
@@ -254,21 +254,196 @@
 		\begin{frame}
 	\frametitle{}
 	\end{frame}
-	\subsection{ Graphe de Marquage Accessible (GMA)            }
+	\subsection{ Graphe de Marquage Accessible (GMA)}
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Graphe de Marquage Accessible (GMA)}
+	\begin{examplesecond}{Définition}
+	
+		Un marquage sera dit accessible si on peut l'atteindre à partir du marquage initial, soit directement (avec un seul tir), soit indirectement (avec plusieurs tirs).
+		On note A l'ensemble des marquages accessibles d'un réseau de Petri.
+	\end{examplesecond}
+	
+	\begin{center}
+				
+		\begin{minipage}[h]{0.2\linewidth}
+			\includegraphics<1>[scale=0.4]{GMA_exemple.png}
+		\end{minipage}
+		\hspace{0.5cm}	
+		\begin{minipage}[h]{0.58\linewidth}
+			Exemple (précédent) : \\
+			A = M0 , M1 , M2\\
+			Le graphe des marquages accessibles:
+		\end{minipage}
+
+	\end{center}
+	
 	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{Graphe de Marquage Accessible (GMA)}
+		\textbf{Application}
+		Considérons le réseau de Petri suivant :
+		
+		\centering
+		\includegraphics<1>[scale=0.3]{application1.png}
+			
+			
+			soit T = ($t_{1},t_{2}$), on a:\\
+			$C^{-}$ = Pré = 
+			\begin{pmatrix}
+			1 & 0 \\
+			0 & 1 \\
+			0 & 1 \\
+			1 & 0
+			\end{pmatrix};
+			$C^{+}$ = Post = 
+			\begin{pmatrix}
+			1 & 0 \\
+			0 & 1 \\
+			1 & 0 \\
+			0 & 1
+			\end{pmatrix};\\
+			C = $C^{+}$ - $C^{-}$ = 
+			\begin{pmatrix}
+			0 & 0 \\
+			0 & 0 \\
+			1 & -1 \\
+			-1 & 1
+			\end{pmatrix}
+		
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Graphe de Marquage Accessible (GMA)}
+		
+		\textbf{Application}(suite)
+
+		
+	\begin{minipage}[h]{0.2\linewidth}
+		\includegraphics<1>[scale=0.4]{application2.png}
+	\end{minipage}
+	\hspace{1cm}
+	\begin{minipage}[h]{0.6\linewidth}
+		avec M0 = (1, 1, 0, 4)\\
+		On peut avoir les autres marquages accessibles,\\ exemple :
+		M0 [t1 >M1 car [1, 1, 0, 4] > [1, 0, 0, 1]\\
+		
+		\newline
+		
+		Donc : M1 = M0 +1 C = [1, 1, 0, 4] + [0, 0, 1, 3] etc.\\
+		Le graphe des marquages accessibles :
+	\end{minipage}
+	\end{frame}
+	
+	
+	
 	\subsection{ Le vecteur d’occurrence et l’équation de changement d’état }
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
+	\begin{examplesecond}
+
+		Soit $T^{*}$ l’ensemble de transitions $T^{*}$ = t1 , t2 , . . . , tn\\
+		Soit S une séquence de transitions (S ∈ $T^{*}$ ) ; $\overrightarrow{\sigma} = (\overrightarrow{\sigma} (t))_{t}$\\
+		où $\overrightarrow{\sigma}$(t) est le nombre d’occurrences de t dans S.	
+	\end{examplesecond}
+	
+	\textbf{Exemple 1 :}\\
+	 Soit le graphe de marquage ci-dessous,\\
+	
+	\begin{minipage}[h]{0.2\linewidth}
+	 	\includegraphics<1>[scale=0.4]{exemple_page9.png}
+	\end{minipage}
+	\hspace{1.5cm}
+	\begin{minipage}[h]{0.6\linewidth}
+		avec T = t1 , t2 , t3.\\
+		Considérons la séquence $\overrightarrow{\sigma}$ = t1 t2 t3\\
+		Alors le vecteur d'occurrences $\overrightarrow{\sigma} = (\overrightarrow{\sigma} (t1 ), \overrightarrow{\sigma} (t2 ), \overrightarrow{\sigma} (t3 )) est \overrightarrow{\sigma}$\\
+		= (2, 1, 0)\\
+	\end{minipage}
+
+	
+
 	\end{frame}
-	\subsection{ Quelques propriétés qualitatives                 }
+	
+	\begin{frame}
+		\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
+		
+			Ainsi, à partir d'un marquage M , on peut tirer une séquence de transitions $\sigma$, et on trouve
+			le marquage $M^{'}$ .\\
+			
+		\begin{examplesecond}
+			
+			\centering
+			L'équation de changement d'état est alors donnée comme suit :\\
+			
+			\textbf{$M_{0} = M + C . \overrightarrow{\sigma}$}
+		\end{examplesecond}
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
+		
+		\textbf{Exemple 2 :}
+		le franchissement d'une transition «source» consiste à rajouter un jeton à chacune
+		des places en sortie.\\
+		
+		\begin{center}
+			\includegraphics<1>[scale=0.4]{exemple_page10_1.png}
+		\end{center}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
+		
+		\textbf{Exemple 3 :}
+		le franchissement d'une transition «puits» consiste à retirer un jeton de chacune
+		de ses places en entrée.\\
+		
+		\begin{center}
+			\includegraphics<1>[scale=0.4]{exemple_page10_2.png}
+		\end{center}
+	\end{frame}
+	
+	
 		\begin{frame}
-	\frametitle{}
-	\end{frame}
+			\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
+			
+			\textbf{Exemple 4 :}\\
+				séquence de franchissement :\\
+				M0 [t1 >M1 avec M1 = (0, 1, 0, 0)\\
+				M0 [t1 t2 >M2 avec M2 = (0, 0, 0, 1)\\
+				M0 [t1 t3 >M3 avec M3 = (0, 0, 0, 1)\\
+				Ensemble des marquages accessibles : M ∗ = M0 , M1 , M1 , M3\\
+			
+			\begin{center}
+				\includegraphics<1>[scale=0.35]{exemple_page10_3.png}
+			\end{center}
+		\end{frame}
+
+	
+	\subsection{ Quelques propriétés qualitatives                 }
+
 	\subsubsection{ Bornitude                         }
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Quelques propriétés qualitatives}
+	
+	Quelques propriétés qualitatives Vérifiables en se basant sur le graphe des marquages accessibles.\\
+	\\
+	\textbf{  }\\
+	
+	\textbf{Bornitude}
+	\begin{examplesecond}{Définition}
+		Une place sera dite k-bornée si ∀M, M (p) ≤ k
+	\end{examplesecond}
+	
+	Exemple (précédent):
+	– $M_{0}$(p1 ) = $M_{1}$(p1 ) = $M_{2}$(p2 ) = $M_{3}$(p3 ) = $M_{4}$(p4 ) = 1 donc p1 est 1-bornée
+	– la place p4 est 4-bornée
+	Un réseau de Petri est borné s'il existe une valeur k telle que :
+	∀M, ∀p, M (p) ≤ k
 	\end{frame}
 	\subsubsection{ Pseudo-vivacité                      }
 		\begin{frame}
