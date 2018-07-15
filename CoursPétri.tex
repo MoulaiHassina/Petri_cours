@@ -428,7 +428,7 @@
 
 	\subsubsection{ Bornitude                         }
 		\begin{frame}
-	\frametitle{Quelques propriétés qualitatives}
+	\frametitle{Quelques propriétés qualitatives:Bornitude}
 	
 	Quelques propriétés qualitatives Vérifiables en se basant sur le graphe des marquages accessibles.\\
 	\\
@@ -436,34 +436,126 @@
 	
 	\textbf{Bornitude}
 	\begin{examplesecond}{Définition}
-		Une place sera dite k-bornée si ∀M, M (p) ≤ k
+		Une place sera dite k-bornée si $\forall M, M (p) \leq k$
 	\end{examplesecond}
 	
-	Exemple (précédent):
-	– $M_{0}$(p1 ) = $M_{1}$(p1 ) = $M_{2}$(p2 ) = $M_{3}$(p3 ) = $M_{4}$(p4 ) = 1 donc p1 est 1-bornée
-	– la place p4 est 4-bornée
-	Un réseau de Petri est borné s'il existe une valeur k telle que :
-	∀M, ∀p, M (p) ≤ k
+	\textbf{Exemple (précédent):\\}
+	– $M_{0}$(p1) = $M_{1}$(p1) = $M_{2}$(p2) = $M_{3}$(p3) = $M_{4}$(p4) = 1 donc p1 est 1-bornée\\
+	– la place p4 est 4-bornée\\
+
+	
+	\begin{examplesecond}
+		
+		Un réseau de Petri est borné s'il existe une valeur k telle que :\\
+		\centering
+		$\forall M,\forall p, M (p) \leq k$
+	\end{examplesecond}
+	
+	\end{frame}
+	
+	\begin{frame}
+		\begin{examplefirst}{Remarque}
+			Pour que le réseau soit borné, il faut que son ensemble de marquages accessibles
+			A soit fini (sinon, le réseau n'est pas borné).\\
+		\end{examplefirst}
+		
+		\textbf{Exemple :}
+		\begin{center}
+			\includegraphics<1>[scale=0.35]{exemple_page11.png}\\
+			Réseaux non borné \hspace{2cm} Réseau 2-borné
+		\end{center}
 	\end{frame}
 	\subsubsection{ Pseudo-vivacité                      }
-		\begin{frame}
-	\frametitle{}
+	\begin{frame}
+		\frametitle{Quelques propriétés qualitatives:Pseudo-vivacité}
+
+		
+		\textbf{Pseudo-vivacité   }
+		\begin{examplesecond}{Définition}
+			Le réseau de Petri est pseudo-vivant si $\forall M, \exists t / M [t >$
+			c.-à-d. pour tout marquage, il existe au moins une transition tirable à partir de ce marquage.\\
+			Ainsi, le GMA d'un RdP pseudo-vivant possède au moins un arc (transition) sortant de chaque
+			état (marquage).\\
+		\end{examplesecond}
+		\begin{examplefirst}{Remarque}
+			Un réseau pseudo vivant n'a pas de marquage puits (ou mort) c.-à-d. un marquage sans
+			transition tirable. Donc s'il y a un marquage à partir duquel on ne peut pas tirer une transition
+			alors le réseau n'est pas pseudo-vivant.\\
+		\end{examplefirst}
 	\end{frame}
 	\subsubsection{ Quasi-vivacité                       }
-		\begin{frame}
-	\frametitle{}
+	\begin{frame}
+		\frametitle{Quelques propriétés qualitatives:Quasi-vivacité }
+		
+		
+		\textbf{Quasi-vivacité}
+		\begin{examplesecond}{Définition}
+			Un réseau est quasi-vivant si : $\forallk, \exists M/M [t >$
+			c.-à-d. que pour toute transition, il existe au moins un marquage à partir duquel on peut
+			direr cette transition.\\
+			 Ainsi, la quasi-vivacité désigne la possibilité de franchir au moins une
+			fois chaque transition.\\
+		\end{examplesecond}
 	\end{frame}
 	\subsubsection{ Vivacté                          }
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Quelques propriétés qualitatives:Vivacité }
+	
+	
+	\textbf{Vivacité}
+	\begin{examplesecond}{Définition}
+		Un RdP est vivant s'il est pseudo-vivant et quasi-vivant.\\
+	\end{examplesecond}
+	
+	\textbf{Exemple:}
+	\begin{center}
+		\includegraphics<1>[scale=0.35]{vivacite.png}\\
+		Réseau vivant.
+	\end{center}
 	\end{frame}
-	\subsubsection{ Réseau sans blocage                   }
+	
+	\subsubsection{ Réseau sans blocage }
 		\begin{frame}
-	\frametitle{}
+	\frametitle{Quelques propriétés qualitatives:Réseau sans blocage }
+	
+	
+	\textbf{Réseau sans blocage}
+	\begin{examplesecond}{Définition}
+		Un RdP est dit sans blocage s'il n'a pas de marquage puits (mort).\\
+	\end{examplesecond}
+	
+	\textbf{Exemple:}
+	\begin{center}
+		\includegraphics<1>[scale=0.35]{reseauSansBlocage.png}\\
+	\end{center}
 	\end{frame}
-	\subsubsection{ Etat d’accueil                       }
-		\begin{frame}
-	\frametitle{}
+	\subsubsection{ Etat d’accueil }
+	\begin{frame}
+		\frametitle{Quelques propriétés qualitatives:Etat d’accueil }
+		
+		
+		\textbf{Etat d’accueil }
+		\begin{examplesecond}{Définition}
+			Un RdP admet un état d’accueil $M_{a}$ si :$ \forall M \in A, \exists \sigma \in T ∗ /M [ \sigma > M_{a}$.\\
+			c.-à-d. un marquage d'accueil $M_{a}$ est tel qu'on peut lui accéder à partir de n'importe quel
+			autre marquage M via une séquence de transition $\sigma$.\\
+		\end{examplesecond}
+		
+		\begin{examplefirst}{Remarque 1:}
+			Un état d'accueil est accessible quelque soit l'évolution du réseau.\\
+		\end{examplefirst}
+	\end{frame}
+	
+	\begin{frame}
+		\begin{examplefirst}{Remarque 2:}
+			Si le marquage initial (M0) est un marquage d'accueil, alors le réseau est dit réinitialisable.\\
+		\end{examplefirst}
+		\frametitle{Quelques propriétés qualitatives:Etat d’accueil}
+		\textbf{Exemple:}
+		\begin{center}
+			\includegraphics<1>[scale=0.35]{etatAccueil.png}\\
+			Réseau réinitialisable
+		\end{center}
 	\end{frame}
 	\subsubsection{ Conservation                       }
 		\begin{frame}
