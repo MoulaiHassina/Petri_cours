@@ -6,14 +6,14 @@
 \headcommand {\sectionentry {1}{Introduction}{3}{Introduction}{0}}
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{0}{4}{4/4}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\sectionentry {2}{Notations et r\IeC {\`e}gles de franchissement}{5}{Notations et r\IeC {\`e}gles de franchissement}{0}}
 \headcommand {\beamer@sectionpages {3}{4}}
 \headcommand {\beamer@subsectionpages {3}{4}}
-\headcommand {\slideentry {2}{0}{5}{5/5}{}{0}}
+\headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{6}{ Places, Transitions et Arcs }}\headcommand {\beamer@subsectionpages {5}{5}}
 \headcommand {\slideentry {2}{1}{1}{6/6}{ Places, Transitions et Arcs }{0}}
@@ -49,87 +49,89 @@
 \headcommand {\beamer@framepages {25}{25}}
 \headcommand {\slideentry {2}{4}{6}{26/26}{ R\IeC {\'e}seaux particuliers }{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\sectionentry {3}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{27}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{0}}
-\headcommand {\beamer@sectionpages {5}{26}}
-\headcommand {\beamer@subsectionpages {21}{26}}
-\headcommand {\slideentry {3}{0}{7}{27/27}{}{0}}
+\headcommand {\slideentry {2}{4}{7}{27/27}{ R\IeC {\'e}seaux particuliers }{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {3}{0}{8}{28/28}{}{0}}
+\headcommand {\sectionentry {3}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{28}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{0}}
+\headcommand {\beamer@sectionpages {5}{27}}
+\headcommand {\beamer@subsectionpages {21}{27}}
+\headcommand {\slideentry {3}{0}{1}{28/28}{}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{29}{ Graphe de Marquage Accessible (GMA)}}\headcommand {\beamer@subsectionpages {27}{28}}
-\headcommand {\slideentry {3}{1}{1}{29/29}{ Graphe de Marquage Accessible (GMA)}{0}}
+\headcommand {\slideentry {3}{0}{2}{29/29}{}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {3}{1}{2}{30/30}{ Graphe de Marquage Accessible (GMA)}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{30}{ Graphe de Marquage Accessible (GMA)}}\headcommand {\beamer@subsectionpages {28}{29}}
+\headcommand {\slideentry {3}{1}{1}{30/30}{ Graphe de Marquage Accessible (GMA)}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {3}{1}{3}{31/31}{ Graphe de Marquage Accessible (GMA)}{0}}
+\headcommand {\slideentry {3}{1}{2}{31/31}{ Graphe de Marquage Accessible (GMA)}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {3}{1}{4}{32/32}{ Graphe de Marquage Accessible (GMA)}{0}}
+\headcommand {\slideentry {3}{1}{3}{32/32}{ Graphe de Marquage Accessible (GMA)}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{33}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }}\headcommand {\beamer@subsectionpages {29}{32}}
-\headcommand {\slideentry {3}{2}{1}{33/33}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
+\headcommand {\slideentry {3}{1}{4}{33/33}{ Graphe de Marquage Accessible (GMA)}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{2}{2}{34/34}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{34}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }}\headcommand {\beamer@subsectionpages {30}{33}}
+\headcommand {\slideentry {3}{2}{1}{34/34}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {3}{2}{3}{35/35}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
+\headcommand {\slideentry {3}{2}{2}{35/35}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {3}{2}{4}{36/36}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
+\headcommand {\slideentry {3}{2}{3}{36/36}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {3}{2}{5}{37/37}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
+\headcommand {\slideentry {3}{2}{4}{37/37}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {3}{2}{6}{38/38}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
+\headcommand {\slideentry {3}{2}{5}{38/38}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{39}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }}\headcommand {\beamer@subsectionpages {33}{38}}
-\headcommand {\slideentry {3}{3}{1}{39/39}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\slideentry {3}{2}{6}{39/39}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{1}{40}{ Bornitude }}
-\headcommand {\slideentry {3}{3}{2}{40/40}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{40}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }}\headcommand {\beamer@subsectionpages {34}{39}}
+\headcommand {\slideentry {3}{3}{1}{40/40}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {3}{3}{3}{41/41}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{1}{41}{ Bornitude }}
+\headcommand {\slideentry {3}{3}{2}{41/41}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{2}{42}{ Pseudo-vivacit\IeC {\'e} }}
-\headcommand {\slideentry {3}{3}{4}{42/42}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\slideentry {3}{3}{3}{42/42}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{3}{43}{ Quasi-vivacit\IeC {\'e} }}
-\headcommand {\slideentry {3}{3}{5}{43/43}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{2}{43}{ Pseudo-vivacit\IeC {\'e} }}
+\headcommand {\slideentry {3}{3}{4}{43/43}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{4}{44}{ Vivact\IeC {\'e} }}
-\headcommand {\slideentry {3}{3}{6}{44/44}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{3}{44}{ Quasi-vivacit\IeC {\'e} }}
+\headcommand {\slideentry {3}{3}{5}{44/44}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{5}{45}{ R\IeC {\'e}seau sans blocage }}
-\headcommand {\slideentry {3}{3}{7}{45/45}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{4}{45}{ Vivact\IeC {\'e} }}
+\headcommand {\slideentry {3}{3}{6}{45/45}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{6}{46}{ Etat d\IeC {\textquoteright }accueil }}
-\headcommand {\slideentry {3}{3}{8}{46/46}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{5}{46}{ R\IeC {\'e}seau sans blocage }}
+\headcommand {\slideentry {3}{3}{7}{46/46}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {3}{3}{9}{47/47}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{6}{47}{ Etat d\IeC {\textquoteright }accueil }}
+\headcommand {\slideentry {3}{3}{8}{47/47}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{7}{48}{ Conservation }}
-\headcommand {\slideentry {3}{3}{10}{48/48}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
+\headcommand {\slideentry {3}{3}{9}{48/48}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{49}{ Types de r\IeC {\'e}seaux de Petri }}\headcommand {\beamer@subsectionpages {39}{48}}
-\headcommand {\slideentry {3}{4}{1}{49/49}{ Types de r\IeC {\'e}seaux de Petri }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{7}{49}{ Conservation }}
+\headcommand {\slideentry {3}{3}{10}{49/49}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {3}{4}{2}{50/50}{ Types de r\IeC {\'e}seaux de Petri }{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{50}{ Types de r\IeC {\'e}seaux de Petri }}\headcommand {\beamer@subsectionpages {40}{49}}
+\headcommand {\slideentry {3}{4}{1}{50/50}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{4}{1}{51}{ R\IeC {\'e}seaux de Petri g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}s }}
-\headcommand {\slideentry {3}{4}{3}{51/51}{ Types de r\IeC {\'e}seaux de Petri }{0}}
+\headcommand {\slideentry {3}{4}{2}{51/51}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{4}{2}{52}{ R\IeC {\'e}seaux de Petri \IeC {\`a} capacit\IeC {\'e}s }}
-\headcommand {\slideentry {3}{4}{4}{52/52}{ Types de r\IeC {\'e}seaux de Petri }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{1}{52}{ R\IeC {\'e}seaux de Petri g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}s }}
+\headcommand {\slideentry {3}{4}{3}{52/52}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{4}{3}{53}{ Graphe de marquage }}
-\headcommand {\slideentry {3}{4}{5}{53/53}{ Types de r\IeC {\'e}seaux de Petri }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{2}{53}{ R\IeC {\'e}seaux de Petri \IeC {\`a} capacit\IeC {\'e}s }}
+\headcommand {\slideentry {3}{4}{4}{53/53}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{54}{ Arborescence de couverture }}\headcommand {\beamer@subsectionpages {49}{53}}
-\headcommand {\slideentry {3}{5}{1}{54/54}{ Arborescence de couverture }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{3}{54}{ Graphe de marquage }}
+\headcommand {\slideentry {3}{4}{5}{54/54}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {3}{5}{2}{55/55}{ Arborescence de couverture }{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{55}{ Arborescence de couverture }}\headcommand {\beamer@subsectionpages {50}{54}}
+\headcommand {\slideentry {3}{5}{1}{55/55}{ Arborescence de couverture }{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{5}{1}{56}{ Algorithme de contstruction d\IeC {\textquoteright }un graphe de marquage}}
-\headcommand {\slideentry {3}{5}{3}{56/56}{ Arborescence de couverture }{0}}
+\headcommand {\slideentry {3}{5}{2}{56/56}{ Arborescence de couverture }{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\beamer@partpages {1}{56}}
-\headcommand {\beamer@subsectionpages {54}{56}}
-\headcommand {\beamer@sectionpages {27}{56}}
-\headcommand {\beamer@documentpages {56}}
-\headcommand {\def \inserttotalframenumber {50}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{5}{1}{57}{ Algorithme de contstruction d\IeC {\textquoteright }un graphe de marquage}}
+\headcommand {\slideentry {3}{5}{3}{57/57}{ Arborescence de couverture }{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@partpages {1}{57}}
+\headcommand {\beamer@subsectionpages {55}{57}}
+\headcommand {\beamer@sectionpages {28}{57}}
+\headcommand {\beamer@documentpages {57}}
+\headcommand {\def \inserttotalframenumber {51}}
