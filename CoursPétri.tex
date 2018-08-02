@@ -241,8 +241,8 @@
 						\begin{itemize}
 					\item 	\textbf{ P }: ensemble de places $p_{i}$
 						\item  \textbf{ T }: ensemble de transitions
-						\item \textbf{ Pré} : \textit{Pré(p, t)} est une valeur ($≥$ 0) associée à l'arc allant de la place p à la transition t
-						\item   \textbf{Post} : \textit{Post(p, t)} est une valeur ($≥$ 0) associée à l'arc allant de la transition \textit{t} à la place \textit{p}
+						\item \textbf{ Pré} : \textit{Pré(p, t)} est une valeur ($\geq$ 0) associée à l'arc allant de la place p à la transition t
+						\item   \textbf{Post} : \textit{Post(p, t)} est une valeur ($\geq$ 0) associée à l'arc allant de la transition \textit{t} à la place \textit{p}
 						\item  $M_{0}$ : vecteur décrivant le marquage initial, $M_{0}$  = ($M_{0}$  ($p_{1}$ ), . . . , $M_{0}$  ($p_{n}$)).
 							 nombre de jetons dans la place $p_{1}$
 							\end{itemize}
@@ -291,8 +291,30 @@
 
 	
 	\section{Propriétés des réseaux de Petri}
-		\begin{frame}
-	\frametitle{}
+		\begin{frame} [shrink=10]
+	\frametitle{Propriétés des réseaux de Petri}
+	À partir du marquage initial, le réseau de Petri peut évoluer si les conditions sont vérifiées.
+	
+	\textbf{\textit{Exemple}} (se référer à l’exemple précédent) :
+	
+	 Soit $M_{0}$  = (5, 2, 0)
+	Après le franchissement (tir) de la transition \textit{t}, on utilisera un fichier et une imprimante (carPré($p_{1}$  , t) = 1 et Pré($p_{2}$  , t) = 1) et on aura un fichier en cours d’impression .
+
+	\textbf{le marquage deviendra alors :}
+
+	 $M_{1}$  = (4, 1, 1)
+	 
+	 Après un deuxième tir de la transition \textit{ t}, on obtiendra :
+	 
+	  $M_{2}$  = (3, 0, 2).
+	
+	 On ne peut plus effectuer
+	un autre tir de t, car $M_{2}$  ($p_{2}$  ) = 0.
+	
+	Dans le cas général, pour un marquage \textit{M} , une transition \textit{t} est tirable si et seulement si pour tout \textit{p} $\in$ P , on a : $M_{p}$  $\geq$ Pré(p, t)
+	La franchissabilité   (ou la sensibilisation ou le tir) d’une transition \textit{t} pour le marquage \textit{M} se	note : M [t>.
+	
+	Si le marquage résultant est $M^{'}$ , alors on note : $M_{}$ [t>$M^{'}$ .
 	\end{frame}
 	\subsection{ Graphe de Marquage Accessible (GMA)}
 		\begin{frame}
@@ -331,26 +353,29 @@
 			
 			soit T = ($t_{1},t_{2}$), on a:\\
 			$C^{-}$ = Pré = 
-			\begin{pmatrix}
+			\[	\begin{pmatrix}
 			1 & 0 \\
 			0 & 1 \\
 			0 & 1 \\
 			1 & 0
-			\end{pmatrix};
+			\end{pmatrix}\];
 			$C^{+}$ = Post = 
-			\begin{pmatrix}
-			1 & 0 \\
-			0 & 1 \\
-			1 & 0 \\
-			0 & 1
-			\end{pmatrix};\\
+			\[	\begin{pmatrix}
+						1 & 0 \\
+						0 & 1 \\
+						1 & 0 \\
+						0 & 1
+						\end{pmatrix}\];\\
 			C = $C^{+}$ - $C^{-}$ = 
-			\begin{pmatrix}
-			0 & 0 \\
-			0 & 0 \\
-			1 & -1 \\
-			-1 & 1
-			\end{pmatrix}
+			\[	\begin{bmatrix}
+						
+						0 & 0 \\
+						0 & 0 \\
+						1 & -1 \\
+						-1 & 1
+						\end{bmatrix}
+						\].
+		
 		
 		
 	\end{frame}
@@ -367,12 +392,13 @@
 	\hspace{1cm}
 	\begin{minipage}[h]{0.6\linewidth}
 		avec M0 = (1, 1, 0, 4)\\
-		On peut avoir les autres marquages accessibles,\\ exemple :
+		On peut avoir les autres marquages accessibles,
+		 exemple :
 		M0 [t1 >M1 car [1, 1, 0, 4] > [0, 0, 1, -1]\\
 		
-		\newline
 		
-		Donc : M1 = M0 +1 C = [1, 1, 0, 4] + [0,0 ,1 ,-1] =[1,1,1,3] etc.\\
+		
+		Donc :$M_{1}$  = $M_{0}$ + $^{t}C$ = [1, 1, 0, 4] + [0,0 ,1 ,-1] =[1,1,1,3] etc.\\
 		Le graphe des marquages accessibles :
 	\end{minipage}
 	\end{frame}
@@ -384,8 +410,8 @@
 	\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
 	\begin{examplesecond}
 
-		Soit $T^{*}$ l’ensemble de transitions $T^{*}$ = t1 , t2 , . . . , tn\\
-		Soit S une séquence de transitions (S ∈ $T^{*}$ ) ; $\overrightarrow{\sigma} = (\overrightarrow{\sigma} (t))_{t}$\\
+		Soit $T^{*}$ l’ensemble de transitions $T^{\ast}$ = t1 , t2 , . . . , tn\\
+		Soit S une séquence de transitions (S $\in$ $T^{\ast}$ ) ; $\overrightarrow{\sigma} = (\overrightarrow{\sigma} (t))_{t}$\\
 		où $\overrightarrow{\sigma}$(t) est le nombre d’occurrences de t dans S.	
 	\end{examplesecond}
 	
@@ -456,10 +482,10 @@
 				M0 [t1 >M1 avec M1 = (0, 1, 0, 0)\\
 				M0 [t1 t2 >M2 avec M2 = (0, 0, 0, 1)\\
 				M0 [t1 t3 >M3 avec M3 = (0, 0, 0, 1)\\
-				Ensemble des marquages accessibles : M ∗ = M0 , M1 , M1 , M3\\
+				Ensemble des marquages accessibles : M $\ast$ = M0 , M1 , M1 , M3\\
 			
 			\begin{center}
-				\includegraphics<1>[scale=0.35]{exemple\_page10_3.png}
+				\includegraphics<1>[scale=0.35]{exemple_page10_3.png}
 			\end{center}
 		\end{frame}
 
@@ -471,8 +497,7 @@
 	\frametitle{Quelques propriétés qualitatives:Bornitude}
 	
 	Quelques propriétés qualitatives Vérifiables en se basant sur le graphe des marquages accessibles.\\
-	\\
-	\textbf{  }\\
+
 	
 	\textbf{Bornitude}
 	\begin{examplesecond}{Définition}
@@ -481,7 +506,7 @@
 	
 	\textbf{Exemple (précédent):\\}
 	– $M_{0}$(p1) = $M_{1}$(p1) = $M_{2}$(p2) = $M_{3}$(p3) = $M_{4}$(p4) = 1 donc p1 est 1-bornée\\
-	– la place p4 est 4-bornée\\
+	– la place p4 est 4-bornée
 
 	
 	\begin{examplesecond}
@@ -496,7 +521,7 @@
 	\begin{frame}
 		\begin{examplefirst}{Remarque}
 			Pour que le réseau soit borné, il faut que son ensemble de marquages accessibles
-			A soit fini (sinon, le réseau n'est pas borné).\\
+			A soit fini (sinon, le réseau n'est pas borné).
 		\end{examplefirst}
 		
 		\textbf{Exemple :}
@@ -515,26 +540,25 @@
 			Le réseau de Petri est pseudo-vivant si $\forall M, \exists t / M [t >$
 			c.-à-d. pour tout marquage, il existe au moins une transition tirable à partir de ce marquage.\\
 			Ainsi, le GMA d'un RdP pseudo-vivant possède au moins un arc (transition) sortant de chaque
-			état (marquage).\\
+			état (marquage).
 		\end{examplesecond}
 		\begin{examplefirst}{Remarque}
 			Un réseau pseudo vivant n'a pas de marquage puits (ou mort) c.-à-d. un marquage sans
 			transition tirable. Donc s'il y a un marquage à partir duquel on ne peut pas tirer une transition
-			alors le réseau n'est pas pseudo-vivant.\\
+			alors le réseau n'est pas pseudo-vivant.
 		\end{examplefirst}
 	\end{frame}
-	\subsubsection{ Quasi-vivacité                       }
+	\subsubsection{ Quasi-vivacité    }
 	\begin{frame}
 		\frametitle{Quelques propriétés qualitatives:Quasi-vivacité }
-		
-		
-		\textbf{Quasi-vivacité}
-		\begin{examplesecond}{Définition}
+	%	\textbf{Quasi-vivacité}
+		\begin{examplesecond}{Définition :Quasi-vivacité}
 			Un réseau est quasi-vivant si : $\forallk, \exists M/M [t >$
-			c.-à-d. que pour toute transition, il existe au moins un marquage à partir duquel on peut
-			direr cette transition.\\
+			c-à-d que pour toute transition, il existe au moins un marquage à partir duquel on peut
+			tirer cette transition.
+			
 			 Ainsi, la quasi-vivacité désigne la possibilité de franchir au moins une
-			fois chaque transition.\\
+			fois chaque transition.
 		\end{examplesecond}
 	\end{frame}
 	\subsubsection{ Vivacté                          }
@@ -544,7 +568,7 @@
 	
 	\textbf{Vivacité}
 	\begin{examplesecond}{Définition}
-		Un RdP est vivant s'il est pseudo-vivant et quasi-vivant.\\
+		Un RdP est vivant s'il est pseudo-vivant et quasi-vivant.
 	\end{examplesecond}
 	
 	\textbf{Exemple:}
@@ -576,7 +600,7 @@
 		
 		\textbf{Etat d’accueil }
 		\begin{examplesecond}{Définition}
-			Un RdP admet un état d’accueil $M_{a}$ si :$ \forall M \in A, \exists \sigma \in T ∗ /M [ \sigma > M_{a}$.\\
+			Un RdP admet un état d’accueil $M_{a}$ si :$ \forall M \in A, \exists \sigma \in T \ast /M [ \sigma > M_{a}$.\\
 			c.-à-d. un marquage d'accueil $M_{a}$ est tel qu'on peut lui accéder à partir de n'importe quel
 			autre marquage M via une séquence de transition $\sigma$.\\
 		\end{examplesecond}
