@@ -254,10 +254,40 @@
 	     Soit P = $p_{1}$ , $p_{2}$ , $p_{3}$ où $p_{1}$ représente la ressource $«$fichier$»$, $p_{2}$ la ressource $«$imprimante$»$ et p 3 la ressource «fichiers en cours d’impression».
 	      On peut définir le RP suivant
 		dans son état initial (par exemple).
+			\begin{center}
+						\includegraphics<1>[scale=0.5]{fichierimprimantes.png}
+			\end{center}
+		\end{frame}
+\begin{frame}	{Exemple}	
+		\textbf{	On a :}
+
+		 Pré($p_{1}$ , t) = 1 (p donne le poids sur l’arc)
+	
+		Pré($p_{2}$  , t) = 1 ; 
+		
+		Pré($p_{3}$  , t) = 0
+		
+		P ost($p_{1}$  , t) = 0 ; 
+		
+		Post($p_{3}$ , t) = 0 ; 
+		
+		Post($p_{3}$ , t) = 1
+		
+		$M_{0}$  = ($M_{0}$ ($p_{1}$ ), $M_{0}$ ($p_{2}$), $M_{0}$  ($p_{3}$ )) = (5, 2, 0)
+
+	\textbf{Remarque :}
+	
+	 dans le cas général, \textit{Pré(p, t)} représente le nombre de ressources de type p
+		consommées par la transition \textit{t}, et \textit{Post(p, t) }représente le nombre de ressources de type \textit{p}
+		produites suite au tir de la transition t.
+		\textit{M (p)} indique le marquage de la place \textit{p} (nombre de jetons contenus dans \textit{p}).
 		
 
 		
-		\end{frame}
+
+\end{frame}
+		
+		
 
 	
 	\section{Propriétés des réseaux de Petri}
@@ -342,7 +372,7 @@
 		
 		\newline
 		
-		Donc : M1 = M0 +1 C = [1, 1, 0, 4] + [0,0 ,1 ,-1] etc.\\
+		Donc : M1 = M0 +1 C = [1, 1, 0, 4] + [0,0 ,1 ,-1] =[1,1,1,3] etc.\\
 		Le graphe des marquages accessibles :
 	\end{minipage}
 	\end{frame}
