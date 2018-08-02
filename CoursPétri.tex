@@ -298,7 +298,7 @@
 	\textbf{\textit{Exemple}} (se référer à l’exemple précédent) :
 	
 	 Soit $M_{0}$  = (5, 2, 0)
-	Après le franchissement (tir) de la transition \textit{t}, on utilisera un fichier et une imprimante (carPré($p_{1}$  , t) = 1 et Pré($p_{2}$  , t) = 1) et on aura un fichier en cours d’impression .
+	Après le franchissement (tir) de la transition \textit{t}, on utilisera un fichier et une imprimante (car Pré($p_{1}$  , t) = 1 et Pré($p_{2}$  , t) = 1) et on aura un fichier en cours d’impression .
 
 	\textbf{le marquage deviendra alors :}
 
@@ -315,6 +315,77 @@
 	La franchissabilité   (ou la sensibilisation ou le tir) d’une transition \textit{t} pour le marquage \textit{M} se	note : M [t>.
 	
 	Si le marquage résultant est $M^{'}$ , alors on note : $M_{}$ [t>$M^{'}$ .
+	\end{frame}
+	\begin{frame}{suite exemple }
+	Dans l’exemple précédent :
+	$M_{0}$ [t>$M_{1}$ ; $M_{1}$ [t>$M_{2}$ et \textit{t } n’est pas tirable pour $M_{2}$ car $M_{2}$ ($p_{2}$ ) < Pré($p_{2}$ , \textit{t}).
+
+	Soit \textit{M} un marquage : M = (M ($p_{1}$ ), M ($p_{2}$ ). . . )
+	
+	\textbf{Notons:}
+	
+				$C^{-}$ la matrice des Prés telle que : $C^{-}$(ij) = Prés($p_{i}$  , $t_{j}$ )
+	
+	$C^{+}$ la matrice des P osts telle que: $C^{+}$ (ij) = Posts($p_{i}$  , $t_{j}$ )
+	
+\textbf{	 C = 	$C^{+}$ - $C^{-}$}
+	
+	Toujours dans l’exemple précédent on a: 
+		\begin{center}
+					
+			\begin{minipage}[h]{0.4\linewidth}
+	$C^{-}$ = Pré = 
+					\begin{pmatrix}
+			1 \\ 1 \\ 0
+				\end{pmatrix}			
+			\end{minipage}
+			\hspace{0.5cm}	
+			\begin{minipage}[h]{0.4\linewidth}
+		$C^{+}$ = Post = 
+							\begin{pmatrix}
+								0 \\ 0 \\ 1
+									\end{pmatrix}
+			\end{minipage}
+	
+		\end{center}
+	
+	
+				
+	\end{frame}
+	\begin{frame}{suite exemple(fichiers imprimantes)}
+		\begin{center}
+								\includegraphics<1>[scale=0.45]{fichierimprimantes.png}
+			\end{center}
+	Ainsi, avec cette notation, pour un marquage \textit{M} , une transition $t_{i}$  est tirable si et seulement
+	si :
+	
+	 M $\geq$ ${}^iC^{-}$  , où ${}^iC^{-}$ est le vecteur colonne i de la matrice $C^{-}$ .
+	
+	
+	
+	\end{frame}
+	\begin{frame}{suite exemple(fichiers imprimantes)}
+	\begin{examplefirst}{Exemple (précédent suite)}
+
+	$M_{1}$ est tirable car [4, 1, 1] $\geq$ [1, 1, 0] c.-à-d $M_{1}$ $\geq$ $t_{1}$ $C^{-}$
+    $M_{2}$ n’est pas tirable car $M_{2}$  [3, 0, 2] n’est pas supérieur à 
+$C^{-}$ [1, 1, 0]
+	\begin{itemize}
+	\item - Le tir d’une transition \textit{t} ou un marquage \textit{M} conduit à un nouveau marquage  	$M_{0}$  défini par :	$\forall$ p $\in$ P, $M_{0}$(\textit{p}) = \textit{M (p)} - \textit{Pré(p, t)} + \textit{Post(p, t)}
+		où $M_{0}$ = M - ${}^tC^{-}$ + ${}^tC^{+}$ = M + ${}^tC$
+	\end{itemize}
+	
+	
+	\end{examplefirst}
+
+\begin{examplesecond}{Application}
+	$M_{1}$ = $M_{0}$ - ${}^tC^{-}$ + ${}^tC^{+}$
+	
+	$M_{1}$  = [5, 2, 0] - [1, 1, 0] + [0, 0, 1]
+	
+	$M_{1}$ = [4, 1, 1]
+\end{examplesecond}
+
 	\end{frame}
 	\subsection{ Graphe de Marquage Accessible (GMA)}
 		\begin{frame}
@@ -365,7 +436,7 @@
 						0 & 1 \\
 						1 & 0 \\
 						0 & 1
-						\end{pmatrix}\];\\
+						\end{pmatrix}\];
 			C = $C^{+}$ - $C^{-}$ = 
 			\[	\begin{bmatrix}
 						
@@ -553,7 +624,7 @@
 		\frametitle{Quelques propriétés qualitatives:Quasi-vivacité }
 	%	\textbf{Quasi-vivacité}
 		\begin{examplesecond}{Définition :Quasi-vivacité}
-			Un réseau est quasi-vivant si : $\forallk, \exists M/M [t >$
+			Un réseau est quasi-vivant si : $\forall$ k, $\exists$ M/M [t >
 			c-à-d que pour toute transition, il existe au moins un marquage à partir duquel on peut
 			tirer cette transition.
 			
