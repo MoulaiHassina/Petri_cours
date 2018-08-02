@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  3 AUG 2018 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  3 AUG 2018 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1928,15 +1928,73 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: application1.png Graphic file (type png)
 
 <use application1.png>
-Package pdftex.def Info: application1.png used on input line 452.
+Package pdftex.def Info: application1.png used on input line 454.
 (pdftex.def)             Requested size: 193.62486pt x 72.27055pt.
 
-Overfull \vbox (123.90033pt too high) detected at line 452
+! Missing $ inserted.
+<inserted text> 
+                $
+l.454 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.454 	\end{frame}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.454 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.454 	\end{frame}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.454 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.454 	\end{frame}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (3.36925pt too high) detected at line 454
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 452.
+Package pdftex.def Info: page.jpg used on input line 454.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -1953,21 +2011,21 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 <application2.png, id=2186, 217.81375pt x 341.275pt>
 File: application2.png Graphic file (type png)
  <use application2.png>
-Package pdftex.def Info: application2.png used on input line 475.
+Package pdftex.def Info: application2.png used on input line 477.
 (pdftex.def)             Requested size: 87.12395pt x 136.50757pt.
 
-Overfull \hbox (28.97632pt too wide) in paragraph at lines 475--475
+Overfull \hbox (28.97632pt too wide) in paragraph at lines 477--477
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--475
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 475.
+Package pdftex.def Info: page.jpg used on input line 477.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -1981,12 +2039,12 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 [37
 
  <./application2.png (PNG copy)>] (./CoursPétri.toc)
-Overfull \vbox (81.35506pt too high) detected at line 479
+Overfull \vbox (81.35506pt too high) detected at line 481
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 479.
+Package pdftex.def Info: page.jpg used on input line 481.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2003,26 +2061,26 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: exemple_page9.png Graphic file (type png)
 
 <use exemple_page9.png>
-Package pdftex.def Info: exemple_page9.png used on input line 505.
+Package pdftex.def Info: exemple_page9.png used on input line 507.
 (pdftex.def)             Requested size: 99.16873pt x 106.3956pt.
 
-Overfull \hbox (41.0211pt too wide) in paragraph at lines 505--505
+Overfull \hbox (41.0211pt too wide) in paragraph at lines 507--507
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 \T1/cmss/m/n/10.95 Alors le vecteur d'occurrences
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 505.
+Package pdftex.def Info: page.jpg used on input line 507.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2038,7 +2096,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
  <./exemple_page9.png (PNG copy)>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 521.
+Package pdftex.def Info: page.jpg used on input line 523.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2055,11 +2113,11 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: exemple_page10_1.png Graphic file (type png)
 
 <use exemple_page10_1.png>
-Package pdftex.def Info: exemple_page10_1.png used on input line 533.
+Package pdftex.def Info: exemple_page10_1.png used on input line 535.
 (pdftex.def)             Requested size: 222.82855pt x 69.85976pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 533.
+Package pdftex.def Info: page.jpg used on input line 535.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2077,11 +2135,11 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: exemple_page10_2.png Graphic file (type png)
 
 <use exemple_page10_2.png>
-Package pdftex.def Info: exemple_page10_2.png used on input line 545.
+Package pdftex.def Info: exemple_page10_2.png used on input line 547.
 (pdftex.def)             Requested size: 218.01064pt x 71.46573pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 545.
+Package pdftex.def Info: page.jpg used on input line 547.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2099,15 +2157,15 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: exemple_page10_3.png Graphic file (type png)
 
 <use exemple_page10_3.png>
-Package pdftex.def Info: exemple_page10_3.png used on input line 561.
+Package pdftex.def Info: exemple_page10_3.png used on input line 563.
 (pdftex.def)             Requested size: 221.33018pt x 116.63748pt.
 
-Overfull \vbox (12.08293pt too high) detected at line 561
+Overfull \vbox (12.08293pt too high) detected at line 563
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 561.
+Package pdftex.def Info: page.jpg used on input line 563.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2121,12 +2179,12 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 [43
 
  <./exemple_page10_3.png (PNG copy)>] (./CoursPétri.toc)
-Overfull \vbox (81.35506pt too high) detected at line 564
+Overfull \vbox (81.35506pt too high) detected at line 566
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 564.
+Package pdftex.def Info: page.jpg used on input line 566.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2142,7 +2200,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 590.
+Package pdftex.def Info: page.jpg used on input line 592.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2159,11 +2217,11 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: exemple_page11.png Graphic file (type png)
 
 <use exemple_page11.png>
-Package pdftex.def Info: exemple_page11.png used on input line 603.
+Package pdftex.def Info: exemple_page11.png used on input line 605.
 (pdftex.def)             Requested size: 224.14073pt x 87.1268pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 603.
+Package pdftex.def Info: page.jpg used on input line 605.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2179,7 +2237,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
  <./exemple_page11.png (PNG copy)>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 621.
+Package pdftex.def Info: page.jpg used on input line 623.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2195,7 +2253,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 634.
+Package pdftex.def Info: page.jpg used on input line 636.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2211,12 +2269,12 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ] <vivacite.png, id=2845, 390.45876pt x 211.79124pt>
 File: vivacite.png Graphic file (type png)
  <use vivacite.png>
-Package pdftex.def Info: vivacite.png used on input line 650.
+Package pdftex.def Info: vivacite.png used on input line 652.
 (pdftex.def)             Requested size: 136.6626pt x 74.12804pt.
 File: page.jpg Graphic file (type jpg)
 
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 650.
+Package pdftex.def Info: page.jpg used on input line 652.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2234,11 +2292,11 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: reseauSansBlocage.png Graphic file (type png)
 
 <use reseauSansBlocage.png>
-Package pdftex.def Info: reseauSansBlocage.png used on input line 666.
+Package pdftex.def Info: reseauSansBlocage.png used on input line 668.
 (pdftex.def)             Requested size: 272.9739pt x 96.9637pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 666.
+Package pdftex.def Info: page.jpg used on input line 668.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2254,7 +2312,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
  <./reseauSansBlocage.png (PNG copy)>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 682.
+Package pdftex.def Info: page.jpg used on input line 684.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2271,11 +2329,11 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 File: etatAccueil.png Graphic file (type png)
 
 <use etatAccueil.png>
-Package pdftex.def Info: etatAccueil.png used on input line 694.
+Package pdftex.def Info: etatAccueil.png used on input line 696.
 (pdftex.def)             Requested size: 95.90974pt x 79.04648pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 694.
+Package pdftex.def Info: page.jpg used on input line 696.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2291,7 +2349,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
  <./etatAccueil.png (PNG copy)>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 698.
+Package pdftex.def Info: page.jpg used on input line 700.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2305,12 +2363,12 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 [53
 
 ] (./CoursPétri.toc)
-Overfull \vbox (81.35506pt too high) detected at line 699
+Overfull \vbox (81.35506pt too high) detected at line 701
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 699.
+Package pdftex.def Info: page.jpg used on input line 701.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2326,7 +2384,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 702.
+Package pdftex.def Info: page.jpg used on input line 704.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2342,7 +2400,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 706.
+Package pdftex.def Info: page.jpg used on input line 708.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2358,7 +2416,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 710.
+Package pdftex.def Info: page.jpg used on input line 712.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2374,7 +2432,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 714.
+Package pdftex.def Info: page.jpg used on input line 716.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2388,12 +2446,12 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 [58
 
 ] (./CoursPétri.toc)
-Overfull \vbox (81.35506pt too high) detected at line 715
+Overfull \vbox (81.35506pt too high) detected at line 717
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 715.
+Package pdftex.def Info: page.jpg used on input line 717.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2409,7 +2467,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 718.
+Package pdftex.def Info: page.jpg used on input line 720.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2425,7 +2483,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 722.
+Package pdftex.def Info: page.jpg used on input line 724.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2448,11 +2506,11 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 \tf@snm=\write8
 \openout8 = `CoursPétri.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 723.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 723.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 725.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 725.
  (./CoursPétri.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 723.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 723.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 725.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 725.
 Package rerunfilecheck Info: File `CoursPétri.out' has not changed.
 (rerunfilecheck)             Checksum: FD0ADDE19EDD0F0E1F393517AA8A6B50;941.
 
@@ -2460,13 +2518,13 @@ Package rerunfilecheck Info: File `CoursPétri.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 723.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 725.
  ) 
 Here is how much of TeX's memory you used:
- 17218 strings out of 494929
- 315105 string characters out of 6180141
- 402587 words of memory out of 5000000
- 19895 multiletter control sequences out of 15000+600000
+ 17213 strings out of 494929
+ 314950 string characters out of 6180141
+ 402590 words of memory out of 5000000
+ 19890 multiletter control sequences out of 15000+600000
  18359 words of font info for 46 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  49i,18n,74p,417b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2487,7 +2545,7 @@ onts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CoursPétri.pdf (61 pages, 1145027 bytes).
+Output written on CoursPétri.pdf (61 pages, 1144997 bytes).
 PDF statistics:
  4021 PDF objects out of 4296 (max. 8388607)
  3490 compressed objects within 35 object streams
