@@ -22,5 +22,5 @@
 \beamer@subsubsectionintoc {3}{4}{2}{ R\IeC {\'e}seaux de Petri \IeC {\`a} capacit\IeC {\'e}s }{65}{0}{3}
 \beamer@subsubsectionintoc {3}{4}{3}{ R\IeC {\'e}seaux de Petri \IeC {\`a} priorit\IeC {\'e} }{67}{0}{3}
 \beamer@subsubsectionintoc {3}{4}{4}{ Graphe de marquage }{69}{0}{3}
-\beamer@subsectionintoc {3}{5}{ Arborescence de couverture }{71}{0}{3}
-\beamer@subsubsectionintoc {3}{5}{1}{ Algorithme de construction d\IeC {\textquoteright }un graphe de marquage}{73}{0}{3}
+\beamer@subsectionintoc {3}{5}{ Arborescence de couverture }{72}{0}{3}
+\beamer@subsubsectionintoc {3}{5}{1}{ Algorithme de construction d\IeC {\textquoteright }un graphe de marquage}{74}{0}{3}

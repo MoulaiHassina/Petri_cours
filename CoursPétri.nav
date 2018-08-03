@@ -155,18 +155,20 @@
 \headcommand {\beamer@framepages {69}{69}}
 \headcommand {\slideentry {3}{4}{9}{70/70}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {70}{70}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{71}{ Arborescence de couverture }}\headcommand {\beamer@subsectionpages {62}{70}}
-\headcommand {\slideentry {3}{5}{1}{71/71}{ Arborescence de couverture }{0}}
+\headcommand {\slideentry {3}{4}{10}{71/71}{ Types de r\IeC {\'e}seaux de Petri }{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\slideentry {3}{5}{2}{72/72}{ Arborescence de couverture }{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{72}{ Arborescence de couverture }}\headcommand {\beamer@subsectionpages {62}{71}}
+\headcommand {\slideentry {3}{5}{1}{72/72}{ Arborescence de couverture }{0}}
 \headcommand {\beamer@framepages {72}{72}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{5}{1}{73}{ Algorithme de construction d\IeC {\textquoteright }un graphe de marquage}}
-\headcommand {\slideentry {3}{5}{3}{73/73}{ Arborescence de couverture }{0}}
+\headcommand {\slideentry {3}{5}{2}{73/73}{ Arborescence de couverture }{0}}
 \headcommand {\beamer@framepages {73}{73}}
-\headcommand {\slideentry {3}{5}{4}{74/74}{ Arborescence de couverture }{0}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{5}{1}{74}{ Algorithme de construction d\IeC {\textquoteright }un graphe de marquage}}
+\headcommand {\slideentry {3}{5}{3}{74/74}{ Arborescence de couverture }{0}}
 \headcommand {\beamer@framepages {74}{74}}
-\headcommand {\beamer@partpages {1}{74}}
-\headcommand {\beamer@subsectionpages {71}{74}}
-\headcommand {\beamer@sectionpages {29}{74}}
-\headcommand {\beamer@documentpages {74}}
-\headcommand {\def \inserttotalframenumber {68}}
+\headcommand {\slideentry {3}{5}{4}{75/75}{ Arborescence de couverture }{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\beamer@partpages {1}{75}}
+\headcommand {\beamer@subsectionpages {72}{75}}
+\headcommand {\beamer@sectionpages {29}{75}}
+\headcommand {\beamer@documentpages {75}}
+\headcommand {\def \inserttotalframenumber {69}}
