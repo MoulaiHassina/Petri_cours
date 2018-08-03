@@ -41,7 +41,7 @@
 	\end{frame}
 	\AtBeginSection[]{
 		
-		\begin{frame}
+		\begin{frame}[shrink=15]
 				\frametitle{Sommaire}
 				\tableofcontents[currentsection]
 			\end{frame}
@@ -49,11 +49,18 @@
 		}
 		\AtBeginSubsection[]{
 			
-			\begin{frame}
+			\begin{frame}[shrink=15]
 				\frametitle{Sommaire}
 				\tableofcontents[currentsubsection]
 			\end{frame}
 			}
+				\AtBeginSubsubsection[]{
+						
+						\begin{frame}[shrink=15]
+							\frametitle{Sommaire}
+							\tableofcontents[currentsubsection]
+						\end{frame}
+						}
 
 
 
@@ -732,26 +739,65 @@ ${}^tC$ =
 	Ce réseau est dit conservatif.
 	\end{frame}
 	\subsection{ Types de réseaux de Petri                    }
-		\begin{frame}
-	\frametitle{}
-	\end{frame}
+
 	\subsubsection{ Réseaux de Petri généralisés               }
-		\begin{frame}
-	\frametitle{}
-	\end{frame}
+			\begin{frame}{Réseaux de Petri généralisés}
+		 \begin{examplesecond}{Définition}
+		 Dans ces réseaux, des poids sont associés aux arcs.
+		 
+		 \end{examplesecond}
+		 
+		 \textbf{Exemple:}
+		 \begin{center}
+		 \includegraphics[scale=0.32]{petrigeneralisee.png}
+		 \end{center}
+		 
+			\end{frame}
 	\subsubsection{ Réseaux de Petri à capacités              }
-		\begin{frame}
-	\frametitle{}
+		\begin{frame}{ Réseaux de Petri à capacités              }
+
+		 \begin{examplesecond}{Définition}
+			Dans ces réseaux, des poids sont associés aux places.
+			 
+			 \end{examplesecond}
+			 
+			 \textbf{Exemple:}
+			 \begin{center}
+			 \includegraphics[scale=0.32]{petriacapacites.png}
+			 \end{center}
+	
 	\end{frame}
+	
+		\subsubsection{ Réseaux de Petri à priorité                 }
+			\begin{frame}{ Réseaux de Petri à priorité                 }
+	
+			 \begin{examplesecond}{Définition}
+			Dans ces réseaux, on franchit la transition avec la plus grande priorité.
+				 \end{examplesecond}
+				 
+				 \textbf{Exemple:}
+				 \begin{center}
+				 \includegraphics[scale=0.30]{petriapriorite.png}
+				 \end{center}
+		\end{frame}
+	
 	\subsubsection{ Graphe de marquage                   }
-		\begin{frame}
-	\frametitle{}
+		\begin{frame}{ Graphe de marquage                   }
+
+		 \begin{examplesecond}{Définition}
+			À utiliser quand le nombre de marquages accessibles est fini.
+		 \end{examplesecond}
+			 
+			 \textbf{Exemple: ici ya une erreur sur le graphe de marquage (non respect de la priorité à refaire)}
+			 \begin{center}
+			 \includegraphics[scale=0.35]{graphemarquage.png}
+			 \end{center}
 	\end{frame}
 	\subsection{ Arborescence de couverture                   }
 		\begin{frame}
 	\frametitle{}
 	\end{frame}
-	\subsubsection{ Algorithme de contstruction d’un graphe de marquage}
+	\subsubsection{ Algorithme de construction d’un graphe de marquage}
 		\begin{frame}
 	\frametitle{}
 	\end{frame}
