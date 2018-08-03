@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  3 AUG 2018 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  3 AUG 2018 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CoursPétri.tex
-(./CoursPétri.tex
+**courses.tex
+(./courses.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 4 language(s) loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
@@ -1021,9 +1021,8 @@ LaTeX Info: Redefining \textlatin on input line 1448.
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
-(./CoursPétri.aux)
-\openout1 = `CoursPétri.aux'.
+)) (./courses.aux)
+\openout1 = `courses.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -1118,9 +1117,9 @@ LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
 LaTeX Info: Redefining \nameref on input line 36.
 
-(./CoursPétri.out) (./CoursPétri.out)
+(./courses.out) (./courses.out)
 \@outlinefile=\write5
-\openout5 = `CoursPétri.out'.
+\openout5 = `courses.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
@@ -1190,7 +1189,7 @@ tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 36.
- (./CoursPétri.nav)
+ (./courses.nav)
 <page.jpg, id=65, 144.54pt x 144.54pt>
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
@@ -1213,7 +1212,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./page.jpg>]
-(./CoursPétri.toc)
+(./courses.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 24.01733 percent inst
 ead of 15 percent on input line 41.
@@ -1233,7 +1232,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [2
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 62
  []
 
@@ -1268,7 +1267,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [4
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 77
  []
 
@@ -1287,7 +1286,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [5
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 79
  []
 
@@ -1432,7 +1431,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [13
 
- <./PuitSource.png>] (./CoursPétri.toc)
+ <./PuitSource.png>] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 129
  []
 
@@ -1476,7 +1475,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [15
 
- <./marquage.png>] (./CoursPétri.toc)
+ <./marquage.png>] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 149
  []
 
@@ -1571,7 +1570,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [20
 
- <./franchissement1.png> <./franchissement2.png>] (./CoursPétri.toc)
+ <./franchissement1.png> <./franchissement2.png>] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 184
  []
 
@@ -1759,7 +1758,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [28
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 293
  []
 
@@ -1884,7 +1883,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [33
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 390
  []
 
@@ -2073,7 +2072,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [38
 
- <./application2.png (PNG copy)>] (./CoursPétri.toc)
+ <./application2.png (PNG copy)>] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 490
  []
 
@@ -2102,6 +2101,54 @@ Package pdftex.def Info: exemple_page9.png used on input line 516.
 Overfull \hbox (41.0211pt too wide) in paragraph at lines 516--516
 [][] 
  []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 	\end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 516--516
@@ -2213,7 +2260,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [44
 
- <./exemple_page10_3.png (PNG copy)>] (./CoursPétri.toc)
+ <./exemple_page10_3.png (PNG copy)>] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 575
  []
 
@@ -2397,7 +2444,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [54
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 710
  []
 
@@ -2480,7 +2527,7 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 [59
 
-] (./CoursPétri.toc)
+] (./courses.toc)
 Overfull \vbox (81.35506pt too high) detected at line 726
  []
 
@@ -2533,20 +2580,20 @@ Overfull \vbox (184.05975pt too high) has occurred while \output is active []
 
 ]
 \tf@nav=\write6
-\openout6 = `CoursPétri.nav'.
+\openout6 = `courses.nav'.
 
 \tf@toc=\write7
-\openout7 = `CoursPétri.toc'.
+\openout7 = `courses.toc'.
 
 \tf@snm=\write8
-\openout8 = `CoursPétri.snm'.
+\openout8 = `courses.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 734.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 734.
- (./CoursPétri.aux)
+ (./courses.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 734.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 734.
-Package rerunfilecheck Info: File `CoursPétri.out' has not changed.
+Package rerunfilecheck Info: File `courses.out' has not changed.
 (rerunfilecheck)             Checksum: 111243C01C6E85E18ED20828522A3C18;941.
 
 
@@ -2557,12 +2604,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 734.
  ) 
 Here is how much of TeX's memory you used:
  17217 strings out of 494929
- 314987 string characters out of 6180141
- 402664 words of memory out of 5000000
+ 314823 string characters out of 6180141
+ 402652 words of memory out of 5000000
  19892 multiletter control sequences out of 15000+600000
  18359 words of font info for 46 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 49i,18n,74p,417b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,18n,74p,413b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600pk> <
 /home/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.600pk> </hom
 e/masterubunto/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecso1095.600pk> </home/ma
@@ -2580,9 +2627,9 @@ onts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CoursPétri.pdf (62 pages, 1148748 bytes).
+Output written on courses.pdf (62 pages, 1148589 bytes).
 PDF statistics:
- 4074 PDF objects out of 4296 (max. 8388607)
+ 4073 PDF objects out of 4296 (max. 8388607)
  3539 compressed objects within 36 object streams
  148 named destinations out of 1000 (max. 500000)
  321 words of extra memory for PDF output out of 10000 (max. 10000000)
