@@ -720,7 +720,7 @@ ${}^tC$ =
 	\begin{examplesecond}{Définition:Réseau de Petri conservatif}
 	Un réseau de Petri est conservatif si :
 	\begin{center}
-	$\forall M \inA ,\sum_{i=1}^{size(P)} M_{0}(p_{i}) = \sum_{i=1}^{size(P)} M(p_{i})$
+	$\forall M \in A ,\sum_{i=1}^{size(P)} M_{0}(p_{i}) = \sum_{i=1}^{size(P)} M(p_{i})$
 
 	\end{center}
 
@@ -836,11 +836,38 @@ composantes supérieures aux composantes de $M_{0}$ .
 alors $M_{i}$ n’a pas de successeur.
 \item Pas 2.2 : Sinon, on prolonge le graphe avec les successeurs $M_{k}$ ($M_{i}$ ) : une com-
 posante "w" de $M_{i}$ reste une composante de "w" de $M_{k}$ .
-S’il existe un marquage $M_{j}$ sur le chemin de $M_{0}$ à $M_{k}$ tel que $M_{k}$ > $M_{j}$ , alors on
+S’il existe un marquage $M_{j}$ sur le chemin de $M_{0}$ à $M_{k}$ tel que $M_{k} > $  $M_{j}$ , alors on
 met "w" pour chacune des composantes supérieure aux composantes de $M_{i}$ .
  
 \end{enumerate}
 
 
 	\end{frame}
+	\begin{frame}{Algorithme de construction d’un graphe de marquage}
+	\begin{examplesecond}
+	
+	\textbf{Opérations sur "w" (nombre très grand):}
+	
+	\begin{center}
+	$  _\forall n \in \mathbb{N} , n < \infty   $
+		\end{center}
+	\textbf{Équation fondamentale}
+	\begin{center}
+	$\left\lbrace\begin{array}{lll}
+	n + w + w + n = w + w&=& w\\
+	w - n&=& n
+	\end{array}\right.$
+	\end{center}
+
+	
+	\end{examplesecond}
+	
+	\end{frame}
+	\begin{frame}{Exemple(Algorithme de construction  d'un graphe de marquage)}
+\begin{center}
+\includegraphics[scale=0.33]{algoPetri.png}
+\end{center}
+
+	\end{frame}
+	
 \end{document}
