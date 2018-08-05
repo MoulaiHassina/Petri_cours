@@ -4,8 +4,6 @@ file = open("sommaire.txt", "r")
 FileF= open ("sommaire2.Txt","w+")
 frame="	\\begin{frame}\n\\frametitle{}\n\end{frame}\n"
 
-i=0
-
 for line in file:
      prog= re.compile("^([0-9].([A-Z].+))")
      result=prog.match(line)

@@ -2,8 +2,6 @@ import re
 file = open("latextry.txt", "r")
 FileF= open ("latexresult.txt","w+")
 
-i=0
-
 for line in file:
      prog= re.compile("(^|\b|\(|\t|<|>|=|,|:|)(t|p|M)( )([0-9kji])( |\b|,|<|>|=|\.|$|)")
      result=prog.findall(line)

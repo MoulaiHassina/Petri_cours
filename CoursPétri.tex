@@ -851,7 +851,7 @@ met "w" pour chacune des composantes supérieure aux composantes de $M_{i}$ .
 	\begin{center}
 	$  _\forall n \in \mathbb{N} , n < \infty   $
 		\end{center}
-	\textbf{Équation fondamentale}
+	\textbf{Équation fondamentale:}
 	\begin{center}
 	$\left\lbrace\begin{array}{lll}
 	n + w + w + n = w + w&=& w\\
@@ -864,10 +864,29 @@ met "w" pour chacune des composantes supérieure aux composantes de $M_{i}$ .
 	
 	\end{frame}
 	\begin{frame}{Exemple(Algorithme de construction  d'un graphe de marquage)}
+\textbf{	Exemple :}
 \begin{center}
+
 \includegraphics[scale=0.33]{algoPetri.png}
 \end{center}
 
 	\end{frame}
+	\begin{frame}
+		$C^{-}$ = 
+		\( \begin{pmatrix}
+	1&0&0&0\\0&1&0&0\\0&0&1&1\\0&0&0&1\\0&0&0&1
+	\end{pmatrix}\)
+		$C^{+}$ = 
+	\( \begin{pmatrix}
+	0&0&0&1\\1&0&0&0\\1&0&0&0\\0&1&0&0\\0&0&1&0
+	\end{pmatrix}\)
+	
+		C = $C^{+}$- $C^{-}$ =  
+	\( \begin{pmatrix}
+	-1&0&0&1\\1&-1&0&0\\1&0&-1&0\\0&1&0&-1\\0&0&1&-1
+	\end{pmatrix}\)
+	
+	\end{frame}
+
 	
 \end{document}
