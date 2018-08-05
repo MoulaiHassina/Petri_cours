@@ -1,11 +1,2 @@
-Pas 1 : À partir du marquage initial M 0 , indiquer toutes les transitions validées et les mar-
-quages accessibles successeurs correspondants.
-Si un des marquages est strictement supérieur à M 0 , on met la variable "w" pour chacun des
-composantes supérieures aux composantes de M 0 .
-Pas 2 : Pour chaque nouveau marquage M i , on fait soit le pas 2.1, soit le pas 2.2
-Pas 2.1 : S’il existe sur le chemin de M 0 jusqu’à M i (exclu) un marquage M j = M i ,
-alors M i n’a pas de successeur.
-Pas 2.2 : Sinon, on prolonge le graphe avec les successeurs M k (M i ) : une com-
-posante "w" de M i reste une composante de "w" de M k .
-S’il existe un marquage M j sur le chemin de M 0 à M k tel que M k > M j , alors on
-met "w" pour chacune des composantes supérieure aux composantes de M i .
+L’équation fondamentale correspondant à cette séquence est :
+M 2 = M 0 + C · ~σ

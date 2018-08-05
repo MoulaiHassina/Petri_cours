@@ -10,6 +10,8 @@ for line in file:
         # FileF.write(result.group(0))
          for element in result:
             line =line.replace(element[1]+element[2]+element[3],"$" + element[1]+"_{"+ element[3]+"}$")
+            line=line.replace("~σ","$\overrightarrow{\sigma}$")
+
             print (str(element))
      FileF.write(line)
 
