@@ -1,2 +1,8 @@
 L’équation fondamentale correspondant à cette séquence est :
 $M_{2}$ = $M_{0}$ + C · $\overrightarrow{\sigma}$
+
+Propriétés :
+– sauf
+– sans blocage
+– réinitialisable : $M_{0}$ est un état d’acceuil
+– 2 séquences répétitives : $T_{1}$ $T_{2}$ $T_{3}$ $T_{4}$ et $T_{1}$ $T_{3}$ $T_{2}$ $T_{4}$
