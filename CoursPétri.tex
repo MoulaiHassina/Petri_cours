@@ -8,7 +8,8 @@
 % => il est possible, pour un thème donné, de modifier seulement la couleur
 %\usecolortheme{crane}
 \usecolortheme{seahorse}
-\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{page.jpg}}
+\setbeamertemplate{background canvas}
+{\includegraphics[width=\paperwidth,height=\paperheight]{page.jpg}}
 
 \useoutertheme[left]{sidebar}
 
@@ -901,7 +902,7 @@ met "w" pour chacune des composantes supérieure aux composantes de $M_{i}$ .
 	\end{center}
 	
 	\end{frame}
-	\begin{frame}
+	\begin{frame}{Exemple (suite : forme matricielle)}
 	 $M_{2}$ = \( \begin{pmatrix}
 	 1\\0\\0\\0\\0\\
 	 \end{pmatrix}\) + \( \begin{pmatrix}
@@ -943,6 +944,29 @@ met "w" pour chacune des composantes supérieure aux composantes de $M_{i}$ .
 	\end{enumerate}
 
 	\end{examplesecond}    
+    \end{frame}
+    \begin{frame}{Exemple : Graphe de couverture et graphe de marquages}
+    \centering
+    \includegraphics[scale=0.355]{exemplealgotree.png}
+    \end{frame}
+    \begin{frame}{Exemple : Graphe de couverture et graphe de marquages}
+   
+    $t_{ 1}$ est une transition source, franchissable un nombre infini de fois, d’où le recours au graphe
+    de couverture.
+    
+     À partir de $M_{ 0}$= (0), seule $t_{ 1}$ est franchissable :
+  
+    $M_{ 0}$[$t_{1}$>$M_{ 1}$= (1);
+    
+     $M_{ 1}$est supérieure à $M_{ 0}$, donc $M_{ 1}$= (w)
+    
+    À partir de $M_{ 1}$, $t_{ 1}$et $t_{ 2}$sont franchissables :
+    \begin{itemize}
+    
+    
+    \item on tire $t_{ 1}$: $M_{ 2}$= (w + 1) = $M_{ 1}  \Longrightarrow$ $M_{ 2}$n’a plus de successeur
+    \item on tire $t_{ 2}$: $M_{ 3}$= (w - 1) = (w) = $M_{ 1}  \Longrightarrow$ $M_{ 3}$n’a plus de successeur
+    \end{itemize}
     \end{frame}
 
 	

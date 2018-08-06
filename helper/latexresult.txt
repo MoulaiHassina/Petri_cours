@@ -1,1 +1,6 @@
-$t_{1}$ , $t_{2}$ , . . . , tn
+$t_{ 1}$est une transition source, franchissable un nombre infini de fois, d’où le recours au graphe
+de couverture. À partir de $M_{ 0}$= (0), seule $t_{ 1}$est franchissable :
+$M_{ 0}$[$t_{1}$>$M_{ 1}$= (1); $M_{ 1}$est supérieure à $M_{ 0}$, donc $M_{ 1}$= (w)
+À partir de $M_{ 1}$, $t_{ 1}$et $t_{ 2}$sont franchissables :
+– on tire $t_{ 1}$: $M_{ 2}$= (w + 1) = $M_{ 1}$=⇒ $M_{ 2}$n’a plus de successeur
+– on tire $t_{ 2}$: $M_{ 3}$= (w − 1) = (w) = $M_{ 1}$=⇒ $M_{ 3}$n’a plus de successeur

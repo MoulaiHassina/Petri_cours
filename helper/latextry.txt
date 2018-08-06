@@ -1,1 +1,6 @@
-t1 , t2 , . . . , tn
+t 1 est une transition source, franchissable un nombre infini de fois, d’où le recours au graphe
+de couverture. À partir de M 0 = (0), seule t 1 est franchissable :
+M 0 [t1>M 1 = (1); M 1 est supérieure à M 0 , donc M 1 = (w)
+À partir de M 1 , t 1 et t 2 sont franchissables :
+– on tire t 1 : M 2 = (w + 1) = M 1 =⇒ M 2 n’a plus de successeur
+– on tire t 2 : M 3 = (w − 1) = (w) = M 1 =⇒ M 3 n’a plus de successeur
