@@ -1,8 +1,1 @@
-L’équation fondamentale correspondant à cette séquence est :
-M 2 = M 0 + C · ~σ
-
-Propriétés :
-– sauf
-– sans blocage
-– réinitialisable : M 0 est un état d’acceuil
-– 2 séquences répétitives : T 1 T 2 T 3 T 4 et T 1 T 3 T 2 T 4
+t1 , t2 , . . . , tn

@@ -258,7 +258,7 @@
 		\begin{frame}
 				\frametitle{Notions et règles de franchissement }
 	\textit{\textbf{Exemple}}
-	     Soit P = $p_{1}$ , $p_{2}$ , $p_{3}$ où $p_{1}$ représente la ressource $«$fichier$»$, $p_{2}$ la ressource $«$imprimante$»$ et p 3 la ressource «fichiers en cours d’impression».
+	     Soit P = $p_{1}$ , $p_{2}$ , $p_{3}$ où $p_{1}$ représente la ressource $«$fichier$»$, $p_{2}$ la ressource $«$imprimante$»$ et $p_{3}$ la ressource fichiers en cours d’impression.
 	      On peut définir le RP suivant
 		dans son état initial (par exemple).
 			\begin{center}
@@ -342,16 +342,16 @@
 					
 			\begin{minipage}[h]{0.4\linewidth}
 	$C^{-}$ = Pré = 
-					\begin{pmatrix}
-			1 \\ 1 \\ 0
-				\end{pmatrix}			
+				\(\begin{pmatrix}
+							1 \\ 1 \\ 0
+								\end{pmatrix}	\)				
 			\end{minipage}
 			\hspace{0.5cm}	
 			\begin{minipage}[h]{0.4\linewidth}
-		$C^{+}$ = Post = 
-							\begin{pmatrix}
-								0 \\ 0 \\ 1
-									\end{pmatrix}
+		$C^{+}$ = Post = \(\begin{pmatrix}
+										0 \\ 0 \\ 1
+											\end{pmatrix}\)
+							
 			\end{minipage}
 	
 		\end{center}
@@ -435,33 +435,34 @@ $C^{-}$ [1, 1, 0]
 			
 			soit T = ($t_{1},t_{2}$), on a:\\
 			$C^{-}$ = Pré = 
-				\begin{pmatrix}
-			1 & 0 \\
-			0 & 1 \\
-			0 & 1 \\
-			1 & 0
-			\end{pmatrix}
+		\(\begin{pmatrix}
+					1 & 0 \\
+					0 & 1 \\
+					0 & 1 \\
+					1 & 0
+					\end{pmatrix}\)		
 			$C^{+}$ = Post = 
-				\begin{pmatrix}
-						1 & 0 \\
-						0 & 1 \\
-						1 & 0 \\
-						0 & 1
-						\end{pmatrix}
+			\(\begin{pmatrix}
+									1 & 0 \\
+									0 & 1 \\
+									1 & 0 \\
+									0 & 1
+									\end{pmatrix}\)	
 						
 						
 			C = $C^{+}$ - $C^{-}$ = 
-				\begin{bmatrix}
-						
-						0 & 0 \\
-						0 & 0 \\
-						1 & -1 \\
-						-1 & 1
-						\end{bmatrix}
+			\(\begin{bmatrix}
+									
+									0 & 0 \\
+									0 & 0 \\
+									1 & -1 \\
+									-1 & 1
+									\end{bmatrix}\)	
 ${}^tC$ =	
-    	\begin{bmatrix}
-    	0 & 0 & 1 & -1 \\ 0 & 0 & -1 & 1
-		\end{bmatrix}					
+    \(\begin{bmatrix}
+        	0 & 0 & 1 & -1 \\ 0 & 0 & -1 & 1
+    		\end{bmatrix}	
+    \)				
 						
 						
 		
@@ -499,8 +500,10 @@ ${}^tC$ =
 	\frametitle{Le vecteur d’occurrence et l’équation de changement d’état}
 	\begin{examplesecond}
 
-		Soit $T^{*}$ l’ensemble de transitions $T^{\ast}$ = t1 , t2 , . . . , tn\\
-		Soit S une séquence de transitions (S $\in$ $T^{\ast}$ ) ; $\overrightarrow{\sigma} = (\overrightarrow{\sigma} (t))_{t}$\\
+		Soit $T^{\ast}$ l’ensemble de transitions $T^{\ast}$ = $t_{1}$ , $t_{2}$ , . . . , $t_{n}$
+		
+		Soit S une séquence de transitions (S $\in$ $T^{\ast}$ ) ; $\overrightarrow{\sigma} = (\overrightarrow{\sigma} (t))_{t}$
+		
 		où $\overrightarrow{\sigma}$(t) est le nombre d’occurrences de t dans S.	
 	\end{examplesecond}
 	
@@ -512,10 +515,11 @@ ${}^tC$ =
 	\end{minipage}
 	\hspace{1.5cm}
 	\begin{minipage}[h]{0.6\linewidth}
-		avec T = t1 , t2 , t3.\\
-		Considérons la séquence $\overrightarrow{\sigma}$ = t1 t2 t3\\
-		Alors le vecteur d'occurrences $\overrightarrow{\sigma} = (\overrightarrow{\sigma} ($t_{1}$ ), \overrightarrow{\sigma} ($t_{2}$ ), \overrightarrow{\sigma} ($t_{3}$ )) est \overrightarrow{\sigma}$\\
-		= (2, 1, 0)\\
+		avec T = $t_{1}$ , $t_{2}$ , $t_{3}$.\\
+			Considérons la séquence $\overrightarrow{\sigma}$ = $t_{1}$ $t_{2}$ $t_{3}$
+			Alors le vecteur d'occurrences $\overrightarrow{\sigma} = (\overrightarrow{\sigma}$ ($t_{1}$ ), $\overrightarrow{\sigma}$ ($t_{2}$ ), $\overrightarrow{\sigma}$ ($t_{3}$ )) est $\overrightarrow{\sigma}$répétitives : $T_{ 1}$ $T_{ 2}$ $T_{ 3}$ $T_{ 4}$ et $T_{ 1}$ $T_{ 3}$ $T_{ 2}$ $T_{4}$
+		
+		= (2, 1, 0)
 	\end{minipage}
 
 	

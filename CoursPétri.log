@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  6 AUG 2018 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  6 AUG 2018 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1802,46 +1802,8 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 [30
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.361 	\end{frame}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.361 	\end{frame}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.361 	\end{frame}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.361 	\end{frame}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 File: page.jpg Graphic file (type jpg)
-<use page.jpg>
+ <use page.jpg>
 Package pdftex.def Info: page.jpg used on input line 361.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
@@ -1959,85 +1921,9 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 [36
 
  <./application1.png (PNG copy)>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.470 	\end{frame}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 File: page.jpg Graphic file (type jpg)
-<use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 470.
+ <use page.jpg>
+Package pdftex.def Info: page.jpg used on input line 471.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2054,21 +1940,21 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: application2.png Graphic file (type png)
 
 <use application2.png>
-Package pdftex.def Info: application2.png used on input line 493.
+Package pdftex.def Info: application2.png used on input line 494.
 (pdftex.def)             Requested size: 87.12395pt x 136.50757pt.
 
-Overfull \hbox (28.97632pt too wide) in paragraph at lines 493--493
+Overfull \hbox (28.97632pt too wide) in paragraph at lines 494--494
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 493.
+Package pdftex.def Info: page.jpg used on input line 494.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2084,11 +1970,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./application2.png (PNG copy)>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 497.
+ead of 15 percent on input line 498.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 497.
+Package pdftex.def Info: page.jpg used on input line 498.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2105,74 +1991,16 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: exemple_page9.png Graphic file (type png)
 
 <use exemple_page9.png>
-Package pdftex.def Info: exemple_page9.png used on input line 523.
+Package pdftex.def Info: exemple_page9.png used on input line 527.
 (pdftex.def)             Requested size: 99.16873pt x 106.3956pt.
 
-Overfull \hbox (41.0211pt too wide) in paragraph at lines 523--523
+Overfull \hbox (41.0211pt too wide) in paragraph at lines 527--527
 [][] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.523  	\end{frame}
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.523  	\end{frame}
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.523  	\end{frame}
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.523  	\end{frame}
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.523  	\end{frame}
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.523  	\end{frame}
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
-\T1/cmss/m/n/10.95 Alors le vecteur d'occurrences
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
-
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 523.
+Package pdftex.def Info: page.jpg used on input line 527.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2188,7 +2016,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./exemple_page9.png (PNG copy)>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 539.
+Package pdftex.def Info: page.jpg used on input line 543.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2205,11 +2033,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: exemple_page10_1.png Graphic file (type png)
 
 <use exemple_page10_1.png>
-Package pdftex.def Info: exemple_page10_1.png used on input line 551.
+Package pdftex.def Info: exemple_page10_1.png used on input line 555.
 (pdftex.def)             Requested size: 222.82855pt x 69.85976pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 551.
+Package pdftex.def Info: page.jpg used on input line 555.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2227,11 +2055,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: exemple_page10_2.png Graphic file (type png)
 
 <use exemple_page10_2.png>
-Package pdftex.def Info: exemple_page10_2.png used on input line 563.
+Package pdftex.def Info: exemple_page10_2.png used on input line 567.
 (pdftex.def)             Requested size: 218.01064pt x 71.46573pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 563.
+Package pdftex.def Info: page.jpg used on input line 567.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2249,15 +2077,15 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: exemple_page10_3.png Graphic file (type png)
 
 <use exemple_page10_3.png>
-Package pdftex.def Info: exemple_page10_3.png used on input line 579.
+Package pdftex.def Info: exemple_page10_3.png used on input line 583.
 (pdftex.def)             Requested size: 221.33018pt x 116.63748pt.
 
-Overfull \vbox (12.08293pt too high) detected at line 579
+Overfull \vbox (12.08293pt too high) detected at line 583
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 579.
+Package pdftex.def Info: page.jpg used on input line 583.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2273,11 +2101,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./exemple_page10_3.png (PNG copy)>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 582.
+ead of 15 percent on input line 586.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 582.
+Package pdftex.def Info: page.jpg used on input line 586.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2293,11 +2121,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 584.
+ead of 15 percent on input line 588.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 584.
+Package pdftex.def Info: page.jpg used on input line 588.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2313,11 +2141,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: application1.png Graphic file (type png)
  <use application1.png>
-Package pdftex.def Info: application1.png used on input line 606.
+Package pdftex.def Info: application1.png used on input line 610.
 (pdftex.def)             Requested size: 187.16447pt x 69.8592pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 606.
+Package pdftex.def Info: page.jpg used on input line 610.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2334,15 +2162,15 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: exemple_page11.png Graphic file (type png)
 
 <use exemple_page11.png>
-Package pdftex.def Info: exemple_page11.png used on input line 625.
+Package pdftex.def Info: exemple_page11.png used on input line 629.
 (pdftex.def)             Requested size: 224.14073pt x 87.1268pt.
 
-Overfull \vbox (25.66971pt too high) detected at line 625
+Overfull \vbox (25.66971pt too high) detected at line 629
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 625.
+Package pdftex.def Info: page.jpg used on input line 629.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2358,11 +2186,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./exemple_page11.png (PNG copy)>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 626.
+ead of 15 percent on input line 630.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 626.
+Package pdftex.def Info: page.jpg used on input line 630.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2378,7 +2206,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 643.
+Package pdftex.def Info: page.jpg used on input line 647.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2394,11 +2222,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 644.
+ead of 15 percent on input line 648.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 644.
+Package pdftex.def Info: page.jpg used on input line 648.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2414,7 +2242,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 656.
+Package pdftex.def Info: page.jpg used on input line 660.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2430,11 +2258,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 657.
+ead of 15 percent on input line 661.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 657.
+Package pdftex.def Info: page.jpg used on input line 661.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2450,12 +2278,12 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] <vivacite.png, id=3254, 390.45876pt x 211.79124pt>
 File: vivacite.png Graphic file (type png)
  <use vivacite.png>
-Package pdftex.def Info: vivacite.png used on input line 672.
+Package pdftex.def Info: vivacite.png used on input line 676.
 (pdftex.def)             Requested size: 136.6626pt x 74.12804pt.
 File: page.jpg Graphic file (type jpg)
 
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 672.
+Package pdftex.def Info: page.jpg used on input line 676.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2471,11 +2299,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./vivacite.png (PNG copy)>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 674.
+ead of 15 percent on input line 678.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 674.
+Package pdftex.def Info: page.jpg used on input line 678.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2492,11 +2320,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: reseauSansBlocage.png Graphic file (type png)
 
 <use reseauSansBlocage.png>
-Package pdftex.def Info: reseauSansBlocage.png used on input line 688.
+Package pdftex.def Info: reseauSansBlocage.png used on input line 692.
 (pdftex.def)             Requested size: 272.9739pt x 96.9637pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 688.
+Package pdftex.def Info: page.jpg used on input line 692.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2512,11 +2340,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./reseauSansBlocage.png (PNG copy)>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 689.
+ead of 15 percent on input line 693.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 689.
+Package pdftex.def Info: page.jpg used on input line 693.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2532,7 +2360,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 704.
+Package pdftex.def Info: page.jpg used on input line 708.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2549,11 +2377,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: etatAccueil.png Graphic file (type png)
 
 <use etatAccueil.png>
-Package pdftex.def Info: etatAccueil.png used on input line 716.
+Package pdftex.def Info: etatAccueil.png used on input line 720.
 (pdftex.def)             Requested size: 95.90974pt x 79.04648pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 716.
+Package pdftex.def Info: page.jpg used on input line 720.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2569,11 +2397,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./etatAccueil.png (PNG copy)>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 717.
+ead of 15 percent on input line 721.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 717.
+Package pdftex.def Info: page.jpg used on input line 721.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2589,7 +2417,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 740.
+Package pdftex.def Info: page.jpg used on input line 744.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2605,11 +2433,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 741.
+ead of 15 percent on input line 745.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 741.
+Package pdftex.def Info: page.jpg used on input line 745.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2625,11 +2453,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 743.
+ead of 15 percent on input line 747.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 743.
+Package pdftex.def Info: page.jpg used on input line 747.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2646,11 +2474,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: petrigeneralisee.png Graphic file (type png)
 
 <use petrigeneralisee.png>
-Package pdftex.def Info: petrigeneralisee.png used on input line 755.
+Package pdftex.def Info: petrigeneralisee.png used on input line 759.
 (pdftex.def)             Requested size: 289.40712pt x 86.08334pt.
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 755.
+Package pdftex.def Info: page.jpg used on input line 759.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2666,11 +2494,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./petrigeneralisee.png>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 756.
+ead of 15 percent on input line 760.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 756.
+Package pdftex.def Info: page.jpg used on input line 760.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2687,16 +2515,16 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: petriacapacites.png Graphic file (type png)
 
 <use petriacapacites.png>
-Package pdftex.def Info: petriacapacites.png used on input line 769.
+Package pdftex.def Info: petriacapacites.png used on input line 773.
 (pdftex.def)             Requested size: 305.14624pt x 115.95557pt.
 
-Overfull \hbox (14.40361pt too wide) in paragraph at lines 769--769
+Overfull \hbox (14.40361pt too wide) in paragraph at lines 773--773
  [] 
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 769.
+Package pdftex.def Info: page.jpg used on input line 773.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2712,11 +2540,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./petriacapacites.png>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 771.
+ead of 15 percent on input line 775.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 771.
+Package pdftex.def Info: page.jpg used on input line 775.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2733,16 +2561,16 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: petriapriorite.png Graphic file (type png)
 
 <use petriapriorite.png>
-Package pdftex.def Info: petriapriorite.png used on input line 782.
+Package pdftex.def Info: petriapriorite.png used on input line 786.
 (pdftex.def)             Requested size: 300.52507pt x 91.84383pt.
 
-Overfull \hbox (9.78244pt too wide) in paragraph at lines 782--782
+Overfull \hbox (9.78244pt too wide) in paragraph at lines 786--786
  [] 
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 782.
+Package pdftex.def Info: page.jpg used on input line 786.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2758,11 +2586,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./petriapriorite.png>] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 784.
+ead of 15 percent on input line 788.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 784.
+Package pdftex.def Info: page.jpg used on input line 788.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2779,16 +2607,16 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: graphemarquage.png Graphic file (type png)
 
 <use graphemarquage.png>
-Package pdftex.def Info: graphemarquage.png used on input line 795.
+Package pdftex.def Info: graphemarquage.png used on input line 799.
 (pdftex.def)             Requested size: 320.4018pt x 93.0992pt.
 
-Overfull \hbox (29.65916pt too wide) in paragraph at lines 795--795
+Overfull \hbox (29.65916pt too wide) in paragraph at lines 799--799
  [] 
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 795.
+Package pdftex.def Info: page.jpg used on input line 799.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2804,7 +2632,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./graphemarquage.png>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 809.
+Package pdftex.def Info: page.jpg used on input line 813.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2820,11 +2648,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 810.
+ead of 15 percent on input line 814.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 810.
+Package pdftex.def Info: page.jpg used on input line 814.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2840,7 +2668,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 821.
+Package pdftex.def Info: page.jpg used on input line 825.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2856,11 +2684,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] (./CoursPétri.toc)
 
 Class beamer Warning: Frame text is shrunk by a factor of 26.88904 percent inst
-ead of 15 percent on input line 822.
+ead of 15 percent on input line 826.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 822.
+Package pdftex.def Info: page.jpg used on input line 826.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2876,7 +2704,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 845.
+Package pdftex.def Info: page.jpg used on input line 849.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2892,7 +2720,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 865.
+Package pdftex.def Info: page.jpg used on input line 869.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2908,15 +2736,15 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ] <algoPetri.png, id=4694, 338.26375pt x 595.22375pt>
 File: algoPetri.png Graphic file (type png)
  <use algoPetri.png>
-Package pdftex.def Info: algoPetri.png used on input line 873.
+Package pdftex.def Info: algoPetri.png used on input line 877.
 (pdftex.def)             Requested size: 111.62737pt x 196.42444pt.
 
-Overfull \vbox (8.3863pt too high) detected at line 873
+Overfull \vbox (8.3863pt too high) detected at line 877
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 873.
+Package pdftex.def Info: page.jpg used on input line 877.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2930,18 +2758,18 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 [77
 
  <./algoPetri.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 899
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 903
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 899.
+LaTeX Font Info:    No file OMScmss.fd. on input line 903.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 899.
+(Font)              for symbol `textperiodcentered' on input line 903.
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 899.
+Package pdftex.def Info: page.jpg used on input line 903.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2957,7 +2785,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 ]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 917.
+Package pdftex.def Info: page.jpg used on input line 921.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -2974,10 +2802,10 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 File: treeexample.png Graphic file (type png)
 
 <use treeexample.png>
-Package pdftex.def Info: treeexample.png used on input line 928.
+Package pdftex.def Info: treeexample.png used on input line 932.
 (pdftex.def)             Requested size: 101.88214pt x 192.1708pt.
 
-Overfull \hbox (14.65848pt too wide) in paragraph at lines 928--928
+Overfull \hbox (14.65848pt too wide) in paragraph at lines 932--932
 [][] 
  []
 
@@ -2985,20 +2813,20 @@ Overfull \hbox (14.65848pt too wide) in paragraph at lines 928--928
 File: treeexamplegma.png Graphic file (type png)
 
 <use treeexamplegma.png>
-Package pdftex.def Info: treeexamplegma.png used on input line 928.
+Package pdftex.def Info: treeexamplegma.png used on input line 932.
 (pdftex.def)             Requested size: 132.79811pt x 197.44057pt.
 
-Overfull \hbox (16.50284pt too wide) in paragraph at lines 928--928
+Overfull \hbox (16.50284pt too wide) in paragraph at lines 932--932
 [][] 
  []
 
 
-Overfull \vbox (1.40244pt too high) detected at line 928
+Overfull \vbox (1.40244pt too high) detected at line 932
  []
 
 File: page.jpg Graphic file (type jpg)
 <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 928.
+Package pdftex.def Info: page.jpg used on input line 932.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -3014,7 +2842,7 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
  <./treeexample.png> <./treeexamplegma.png>]
 File: page.jpg Graphic file (type jpg)
  <use page.jpg>
-Package pdftex.def Info: page.jpg used on input line 942.
+Package pdftex.def Info: page.jpg used on input line 946.
 (pdftex.def)             Requested size: 364.21622pt x 273.16216pt.
 
 Overfull \hbox (3.56967pt too wide) has occurred while \output is active
@@ -3037,11 +2865,11 @@ Overfull \vbox (200.7155pt too high) has occurred while \output is active []
 \tf@snm=\write8
 \openout8 = `CoursPétri.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 947.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 947.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 951.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 951.
  (./CoursPétri.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 947.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 947.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 951.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 951.
 Package rerunfilecheck Info: File `CoursPétri.out' has not changed.
 (rerunfilecheck)             Checksum: 1B3423FC09F5B5C1203006DEB75C57FB;941.
 
@@ -3052,12 +2880,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 947.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 951.
  ) 
 Here is how much of TeX's memory you used:
  17360 strings out of 494929
  316911 string characters out of 6180141
- 405108 words of memory out of 5000000
+ 405110 words of memory out of 5000000
  19963 multiletter control sequences out of 15000+600000
  18359 words of font info for 46 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -3080,7 +2908,7 @@ m/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CoursPétri.pdf (81 pages, 1587922 bytes).
+Output written on CoursPétri.pdf (81 pages, 1588080 bytes).
 PDF statistics:
  5459 PDF objects out of 6186 (max. 8388607)
  4856 compressed objects within 49 object streams

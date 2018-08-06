@@ -3,13 +3,13 @@ file = open("latextry.txt", "r")
 FileF= open ("latexresult.txt","w+")
 
 for line in file:
-     prog= re.compile("(^|\b|\(|\t|<|>|=|,|:|)(t|p|M|T|P)( )([0-9kji])( |\b|,|<|>|=|\.|$|)")
+     prog= re.compile("(^|\b|\(|\t|<|>|=|,|:|)(t|p|M|T|P)(( )[0-9kji]|[0-9])( |\b|,|<|>|=|\.|$|)")
      result=prog.findall(line)
    #  print(line)
      if str(result) != str(None):
         # FileF.write(result.group(0))
          for element in result:
-            line =line.replace(element[1]+element[2]+element[3],"$" + element[1]+"_{"+ element[3]+"}$")
+            line =line.replace(element[1]+element[2]+element[3],"$" + element[1]+"_{"+ element[2]+"}$")
             line=line.replace("~σ","$\overrightarrow{\sigma}$")
 
             print (str(element))
