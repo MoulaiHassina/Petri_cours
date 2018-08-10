@@ -14,7 +14,17 @@ for line in file:
 
             print (str(element))
      FileF.write(line)
+import re
+f1= open("matrix.txt","r")
+f2=open("latexr.txt","w+")
 
+
+for line in f1:
+    prog = re.compile("(\\\includegraphics(|<.*>)[.*]{.*})")
+    result = prog.match(line)
+
+    if str(result) != str(None):
+        print (line)
 
 
 

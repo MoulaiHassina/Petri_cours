@@ -1,0 +1,26 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Notations et r\IeC {\`e}gles de franchissement}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{ Places, Transitions et Arcs }{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{ Marquages }{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{ Franchissement }{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{ R\IeC {\'e}seaux particuliers }{21}{0}{2}
+\beamer@sectionintoc {3}{Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{29}{0}{3}
+\beamer@subsectionintoc {3}{1}{ Graphe de Marquage Accessible (GMA)}{34}{0}{3}
+\beamer@subsectionintoc {3}{2}{ Le vecteur d\IeC {\textquoteright }occurrence et l\IeC {\textquoteright }\IeC {\'e}quation de changement d\IeC {\textquoteright }\IeC {\'e}tat }{39}{0}{3}
+\beamer@subsectionintoc {3}{3}{ Quelques propri\IeC {\'e}t\IeC {\'e}s qualitatives }{45}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{1}{ Bornitude }{46}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{2}{ Pseudo-vivacit\IeC {\'e} }{49}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{3}{ Quasi-vivacit\IeC {\'e} }{51}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{4}{ Vivact\IeC {\'e} }{53}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{5}{ R\IeC {\'e}seau sans blocage }{55}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{6}{ Etat d\IeC {\textquoteright }accueil }{57}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{7}{ Conservation }{60}{0}{3}
+\beamer@subsectionintoc {3}{4}{ Types de r\IeC {\'e}seaux de Petri }{62}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{1}{ R\IeC {\'e}seaux de Petri g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}s }{63}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{2}{ R\IeC {\'e}seaux de Petri \IeC {\`a} capacit\IeC {\'e}s }{65}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{3}{ R\IeC {\'e}seaux de Petri \IeC {\`a} priorit\IeC {\'e} }{67}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{4}{ Graphe de marquage }{69}{0}{3}
+\beamer@subsectionintoc {3}{5}{ Arborescence de couverture }{72}{0}{3}
+\beamer@subsubsectionintoc {3}{5}{1}{ Algorithme de construction d\IeC {\textquoteright }un graphe de marquage}{74}{0}{3}
