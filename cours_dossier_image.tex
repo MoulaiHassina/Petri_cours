@@ -28,7 +28,7 @@
 %\subtitle{}
 %\logo{}
 \institute{USTHB}
-\date{Jeudi 25 Juin}
+% %\date{Jeudi 25 Juin}
 %\subject{}
 %\setbeamercovered{transparent}
 %\setbeamertemplate{navigation symbols}{}
@@ -116,7 +116,8 @@
 	\end{block}
 	\centering
 	\begin{center}
-\includegraphics<1>[scale=0.40]{images/petriPlaces.png}\\	\end{center}
+\includegraphics<1>[scale=0.35]{images/petriPlaces.png}
+	\end{center}
 
 
 	\end{frame}
@@ -129,7 +130,8 @@
 	 	\end{block}
 	 	\centering
 	 	\begin{center}
-\includegraphics<1>[scale=0.40]{images/PuitSource.png}\\	 	\end{center}
+\includegraphics<1>[scale=0.40]{images/PuitSource.png}
+ 	\end{center}
 	\end{frame}
 	\subsection{ Marquages }
 		\begin{frame} [shrink=15]
@@ -288,13 +290,14 @@
 
 
 	\section{Propriétés des réseaux de Petri}
-		\begin{frame} [shrink=10]
+		\begin{frame} [shrink=12]
 	\frametitle{Propriétés des réseaux de Petri}
 	À partir du marquage initial, le réseau de Petri peut évoluer si les conditions sont vérifiées.
 
-	\textbf{\textit{Exemple}} (se référer à l’exemple précédent) :
+	\textbf{\textit{Exemple}} (se référer à l’exemple précédent: "fichiers et imprimantes"):
 
 	 Soit $M_{0}$  = (5, 2, 0)
+	 
 	Après le franchissement (tir) de la transition \textit{t}, on utilisera un fichier et une imprimante (car Pré($p_{1}$  , t) = 1 et Pré($p_{2}$  , t) = 1) et on aura un fichier en cours d’impression .
 
 	\textbf{le marquage deviendra alors :}
@@ -604,7 +607,7 @@ ${}^tC$ =
 
 		\textbf{Exemple :}
 		\begin{center}
-\includegraphics<1>[scale=0.35]{images/exemple_page11.png}\\			Réseaux non borné \hspace{2cm} Réseau 2-borné
+\includegraphics[scale=0.27]{images/exemple_page11.png}\\			Réseaux non borné \hspace{2cm} Réseau 2-borné
 		\end{center}
 	\end{frame}
 	\subsubsection{ Pseudo-vivacité                      }
@@ -675,7 +678,12 @@ ${}^tC$ =
 
 		\textbf{Etat d’accueil }
 		\begin{examplesecond}{Définition}
-			Un RdP admet un état d’accueil $M_{a}$ si :$ \forall M \in A, \exists \sigma \in T \ast /M [ \sigma > M_{a}$.\\
+			Un RdP admet un état d’accueil $M_{a}$ si 
+			:
+			\begin{center}
+				$ \forall M \in A, \exists \sigma \in T \ast /M [ \sigma > M_{a}$.
+			\end{center}
+		
 			c.-à-d. un marquage d'accueil $M_{a}$ est tel qu'on peut lui accéder à partir de n'importe quel
 			autre marquage M via une séquence de transition $\sigma$.\\
 		\end{examplesecond}
@@ -704,6 +712,7 @@ ${}^tC$ =
 	$\forall M \in A ,\sum_{i=1}^{size(P)} M_{0}(p_{i}) = \sum_{i=1}^{size(P)} M(p_{i})$
 
 	\end{center}
+	Où P est l'ensemble des places .
 
 
 		\end{examplesecond}
@@ -763,13 +772,16 @@ ${}^tC$ =
 		\begin{frame}{ Graphe de marquage                   }
 
 		 \begin{examplesecond}{Définition}
-			À utiliser quand le nombre de marquages accessibles est fini.
+			Un graphe de marquage est  utilisé quand le nombre de marquages accessibles est fini.
 		 \end{examplesecond}
 
-			 \textbf{Exemple: ici ya une erreur sur le graphe de marquage (non respect de la priorité à refaire)}
+			 \textbf{Exemple: }
 			 \begin{center}
-\includegraphics[scale=0.35]{images/graphemarquage.png}\\			 \end{center}
+			\includegraphics[scale=0.42]{images/graphemarquage.png}
+			 \end{center}
+	t$_{1}$ > t$_{2}$ (t$_{1}$ est prioritaire à t$_{2}$   )
 	\end{frame}
+
 
 	\begin{frame} {Graphe de marquage (propriétés)}
 	Les propriétés déterminées à partir de ce graphe de marquages sont :
@@ -938,6 +950,15 @@ met "w" pour chacune des composantes supérieure aux composantes de $M_{i}$ .
     \item on tire $t_{ 1}$: $M_{ 2}$= (w + 1) = $M_{ 1}  \Longrightarrow$ $M_{ 2}$n’a plus de successeur
     \item on tire $t_{ 2}$: $M_{ 3}$= (w - 1) = (w) = $M_{ 1}  \Longrightarrow$ $M_{ 3}$n’a plus de successeur
     \end{itemize}
+    \end{frame}
+    \begin{frame} 
+    
+  \huge  
+  \begin{center}
+  \textbf{Merci pour votre attention}
+  \end{center}
+  
+    
     \end{frame}
 
 
